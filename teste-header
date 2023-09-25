@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: black;
+    box-shadow: 0px 3px 10px rgba(22, 22, 22, 0.541);
+}
+
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+} 
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__item {
+    margin: 0 15px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 1.15ren;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login__button button {
+    border: none;
+    background-color: blueviolet;
+    padding: 10px 15px;
+}
+
+.login__button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.mobile__menu__icon {
+    display: none;
+}
+
+.mobile__menu {
+    display: none;
+}
+
+@media screen  and (max-width: 730px) {
+    .nav__bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav__item {
+        display: none;
+    }
+
+    .login__button {
+        display: none;
+    }
+
+    .mobile__menu__icon {
+        display: block;
+    }
+
+    .mobile__menu__icon button  {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile__menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile__menu .nav__item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile__menu .login__buttom {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile__menu .login__buttom button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
