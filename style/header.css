@@ -2,6 +2,10 @@
 .cabecalho {
     background-color: black;
     box-shadow: 0px 3px 10px rgba(22, 22, 22, 0.541);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 
@@ -20,13 +24,14 @@
 .nav__list{
     display: flex;
     align-items: center;
+    margin-top: 1em;
 }
 
 .nav__list ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .nav__item {
@@ -39,6 +44,7 @@
     font-size: 1.15ren;
     color: #fff;
     font-weight: 400;
+    white-space: nowrap;
 }
 .nav__link:hover {
 color: #8224fe;
@@ -96,6 +102,7 @@ box-sizing: border-box;
     white-space: nowrap;
     font-size: 16px;
     line-height: 55px;
+    margin-left: 2em;
 }
 
 #loginbuttonheader:hover{
