@@ -8,6 +8,7 @@
     z-index: 999;
 }
 
+
 .nav__bar{
     display: flex;
     justify-content: space-between;
@@ -54,7 +55,7 @@ text-underline-offset: 10px;
 
 .login__button  {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
 }
 
