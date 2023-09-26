@@ -141,17 +141,16 @@
 }
 
 #intranet{
-    /* Primeiro passo: definir um degradê como fundo */
-    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
-    
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-image: linear-gradient(to left, #707bff, #fa52ff);
     background-clip: text;
-    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-  
-    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
-  
-    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
     color: black;
-    
+}
+
+#intranet:hover{
+    background-image: linear-gradient(to right, #707bff, #fa52ff);
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-decoration-color:#b1b1b1;
 }

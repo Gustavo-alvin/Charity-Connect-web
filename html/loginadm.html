@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../script/cadastrochoice.js"></script>
+    <script type="text/javascript" src="../script/login.js"></script>
     <script type="text/javascript" src="../script/headerbotaohref.js"></script>
-    <link href="../style/cadastrochoice.css" rel="stylesheet">
+    <link href="../style/login.css" rel="stylesheet">
     <link href="../style/header.css" rel="stylesheet">
     <link href="../style/footer.css" rel="stylesheet">
     <link href="../style/reset.css" rel="stylesheet">
@@ -15,86 +15,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Cadastro Escolha | Charity Closet</title>
+    <title>Login ADM | Charity Closet</title>
 </head>
 
 <body>
 
-    <header class="cabecalho">
-        <nav class="nav__bar">
-         <div class="logo">
-             <img src="../assets/shortlogocharitycloset.png" style="width: 50px;" alt="">
-         </div>
-    
-         <div class="nav__list">
-             <ul>
-                 <li class="nav__item"><a href="homepage.html" class="nav__link">Home</a></li>
-                 <li class="nav__item"><a href="ongs.html" class="nav__link">ONGS</a></li>
-                 <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre</a></li>
-                 
-                 <div class="buscar">
-                  <input class="nav__item" type="search" name="" id="pesquisa"  >
-                  <button class="icon__buscar">
-                  <i class="fa-solid fa-magnifying-glass" style="color: #8a2be2;"></i>
-                </button>
-                </div>
-                </ul>
-              
-         </div>
-    
-         <div class="login__button">
-             <a href="login.html" id="loginbuttonheader">Entrar</a>
-             <div>
-             <a href="">
-             <img src="../assets/configicon.png" alt="" id="configicon" >
-            </div>
-            </a>
-    
-         </div>
-    
-         <div class="mobile__menu__icon">
-             <button onclick="menushow()"><img class="icon" src="../assets/Menu.svg" alt=""></button>
-         </div>
-        </nav>
-    
-        <div class="mobile__menu">
-         <ul>
-             <li class="nav__item"><a href="homepage.html" class="nav__link">Home</a></li>
-                 <li class="nav__item"><a href="ongs.html" class="nav__link">ONGS</a></li>
-                 <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre nós</a></li>
-         </ul>
-    
-         <div class="login__button">
-             <button><a href="login.html">Entrar</a></button>
-         </div>
-        </div>
-      </header>
     
 
-    <main class="escolha-main">
+    <main class="login-main">
 
-        <div style="height:50px;background-color: #181818;">
+        <div class="coracaocad">
+            <figure class="coracaofigure">
+                <img id="coracao" src="../assets/shortlogocharitycloset.png">
+            </figure>
         </div>
 
-        <section class="escolha-cad">
+        <section class="login-section">
 
-            <div class="titulo-escolha">
-                <h1 id="title-titulo-escolha">
+            <div class="titulo-login">
+                <h1 id="title-titulo-login">
                     charity closet
                 </h1>
                 <h2>
-                    Que tipo de usuário é você?
+                    Login para Administradores
                 </h2>
             </div>
 
-            <div class="escolhas-div">
+            <form class="login-form">
 
-                <label id="label">
-                    <a id="link-escolha" href="cadastroong.html">ONG</a> 
-                    <a id="link-escolha" href="cadastrouser.html">Doador</a> 
-                </label>
+                <div class="inputs">
 
-            </div>
+                    <label id="label">
+                        <h3 id="h3-form">
+                            Email
+                        </h3>
+                        <input type="email" id="input" name="email" placeholder="Digite seu email" maxlength="120"
+                            required>
+                    </label>
+
+                    <label id="label">
+                        <h3 id="h3-form">
+                            Senha
+                        </h3>
+                        <input type="password" id="input" name="senha" placeholder="Digite sua senha" maxlength="120"
+                            required>
+
+                    </label>
+
+                </div>
+
+                <button id="botao-form" type="submit" onclick="redirecionarlogin()">Entrar</button>
+
+            </form>
+
+            <a href="cadadm.html">Cadastre-se</a><br>
 
         </section>
 
