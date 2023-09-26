@@ -123,9 +123,11 @@ details{
     color:#fff;
     font-family: helvetica;
     font-weight: bolder;
-    padding: 50px;
     font-size: 30px;
-    margin-top: 20px;
+}
+
+.desc-ods{
+    padding: 50px;
 }
 
 #text-desc-ods{
