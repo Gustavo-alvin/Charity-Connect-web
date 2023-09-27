@@ -50,26 +50,17 @@
 
 }
 
-tr{
-    border-width: 2px;
-    border-style: solid;
-}
 
-.demo {
-    border:1px Nenhum #707bff;
-    border-collapse:colapso;
-    padding:0px;
-}
 .demo th {
     border:1px Nenhum #707bff;
-    padding:5px;
+    padding:1em;
     background:#fff;
     font-weight: bold;
     font-size: 1em;
 }
 .demo td {
     border:1px Nenhum #707bff;
-    padding:7px;
+    padding: 1em;
 }
 
 select{
