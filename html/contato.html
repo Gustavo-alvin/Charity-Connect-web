@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="../script/headerbotaohref.js"></script>
+  <script src="../script/cpf.js"></script>
   <link href="../style/contato.css" rel="stylesheet">
   <link href="../style/header.css" rel="stylesheet">
   <link href="../style/footer.css" rel="stylesheet">
@@ -102,14 +103,14 @@
                         <h1 id="nome-input">
                             MOTIVO DO CONTATO:
                         </h1>
-                        <input id="input" type="text" name="nome_ong" maxlength="40"
+                        <input id="input" type="text" name="nome_ong" maxlength="400"
                             placeholder="Digite motivo de contato" required>
                     </label>
                     <label id="label">
                         <h1 id="nome-input">
                             SUA PERGUNTA
                         </h1>
-                        <input id="input" type="text" name="nome_ong" maxlength="40"
+                        <input id="input" type="text" name="nome_ong" maxlength="400"
                             placeholder="Faça sua pergunta" required>
                     </label>
 
@@ -119,7 +120,7 @@
                                 NOME:
                             </h1>
                             <input id="input2" type="text" name="nome_ong" maxlength="40"
-                                placeholder="Digite motivo de contato" required>
+                                placeholder="Digite seu nome" required>
                         </label>
     
                         <label id="label">
@@ -127,7 +128,7 @@
                                 SOBRENOME:
                             </h1>
                             <input id="input2" type="text" name="nome_ong" maxlength="40"
-                                placeholder="Digite motivo de contato" required>
+                                placeholder="Digite seu sobrenome" required>
                         </label>
                     </div>
 
@@ -135,8 +136,8 @@
                         <h1 id="nome-input">
                             ENDEREÇO DE E-MAIL:
                         </h1>
-                        <input id="input" type="text" name="nome_ong" maxlength="40"
-                            placeholder="Digite motivo de contato" required>
+                        <input id="input" type="email" name="nome_ong" maxlength="100"
+                            placeholder="Digite seu email" required>
                     </label>
 
                    <div class="form-3">
@@ -145,15 +146,15 @@
                             CPF:
                         </h1>
                         <input id="input3" type="text" name="nome_ong" maxlength="40"
-                            placeholder="Digite motivo de contato" required>
+                            placeholder="Digite seu cpf" required>
                     </label>
 
                     <label id="label">
                         <h1 id="nome-input">
-                            TELEFONE:
+                            Número de celular
                         </h1>
-                        <input id="input3" type="text" name="nome_ong" maxlength="40"
-                            placeholder="Digite motivo de contato" required>
+                        <input type="tel" id="input3" name="celular" placeholder="(XX) XXXXX-XXXX"
+                            pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required>
                     </label>
                    </div>
                 </div>
@@ -161,7 +162,7 @@
             </section>
 
            <div class="btn-form">
-            <button class="botao-form">Enviar</button>
+            <button class="botao-form" onclick="validarCPF()">Enviar</button>
            </div>
 
         </form>
