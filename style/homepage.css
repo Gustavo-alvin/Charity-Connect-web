@@ -63,7 +63,7 @@
 }
 
 .oddshome{
-    background-color: #181818;
+    background-color: #000;
     display:flex;
     margin-top: -10px;
     padding-top: 150px;
@@ -75,13 +75,16 @@
     width: 630px;
     padding:20px;
     padding-right: 20px;
-    border-radius: 50px;
+    border-radius: 30px;
+    opacity: 0.5;
 }
 
 #title-odds{
-    color: var(--titulo-homepage);
+    color: #fff;
     font-size: 30px;
     margin-right: 20px;
+    margin-top: 0.5em;
+    font-weight: lighter;
 }
 
 .avaliacao{
