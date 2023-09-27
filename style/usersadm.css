@@ -71,3 +71,10 @@ tr{
     border:1px Nenhum #707bff;
     padding:7px;
 }
+
+select{
+    background-color: #000;
+    color:#fff;
+    border-style: none;
+    border-radius: 5px;
+}
