@@ -46,6 +46,11 @@
     font-weight: 400;
     white-space: nowrap;
 }
+
+.nav__link1{
+    opacity: 0;
+}
+
 .nav__link:hover {
 color: #8224fe;
 transition-duration: 1s;
