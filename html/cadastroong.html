@@ -105,22 +105,6 @@
                             <input id="input" type="text" name="nome_ong" maxlength="40"
                                 placeholder="Digite o nome da ONG" required>
                         </label>
-
-                        <label id="label">
-                            <h1 id="nome-input">
-                                Nome do Responsável
-                            </h1>
-                            <input id="input" type="text" name="nomeresp_ong" maxlength="40"
-                                placeholder="Digite o nome do Responsável" required>
-                        </label>
-
-                        <label id="label">
-                            <h1 id="nome-input">
-                                CNPJ
-                            </h1>
-                            <input type="text" name="cnpj_ong" id="cnpj" placeholder="CNPJ (apenas números)" required>
-                        </label>
-
                         <label id="label">
                             <h1 id="nome-input">
                                 Email da organização
@@ -128,6 +112,15 @@
                             <input id="input" type="email" name="email_ong" maxlength="100"
                                 placeholder="email@email.com" required>
                         </label>
+                        
+                        <label id="label">
+                            <h1 id="nome-input">
+                                CNPJ
+                            </h1>
+                            <input type="text" name="cnpj_ong" id="cnpj" placeholder="CNPJ (apenas números)" required>
+                        </label>
+
+                        
 
                         <label id="label">
                             <h1 id="nome-input">
@@ -138,20 +131,8 @@
                         </label>
 
                         <div class="endereco-div">
-                            <label id="label-end">Rua</label>
-                            <input type="text" id="end" name="rua" placeholder="nome da rua" required>
-
-                            <label id="label-end">Número</label>
-                            <input type="text" id="end" name="numero" placeholder="numero" required>
-
-                            <label id="label-end">Complemento*</label>
-                            <input type="text" id="end" name="complemento" placeholder="complemento (opcional)">
-
-                            <label id="label-end">Cidade</label>
-                            <input type="text" id="end" name="cidade" placeholder="cidade" required>
-
-                            <label id="label-end">Estado</label>
-                            <input type="text" id="end" name="estado" placeholder="estado" required>
+                            <label id="label-end">UF</label>
+                            <input type="text" id="end" name="rua" placeholder="UF" required>
 
                             <label id="label-end">CEP</label>
                             <input type="text" id="end" name="cep" placeholder="CEP" required>
@@ -170,38 +151,7 @@
                         </label>
                         <br>
 
-                        <label id="label">
-                            <h1 id="nome-input">
-                                Especialidade da ONG
-                            </h1>
-
-                            <div class="checkbox-div">
-                                <input id="checkbox" type="checkbox" name="categoria_ong" required>
-                                <h6 id="checkbox"> Roupas infantis</h6>
-                            </div>
-
-                            <div class="checkbox-div">
-                                <input id="checkbox" type="checkbox" name="categoria_ong" required>
-                                <h6 id="checkbox"> Roupas femininas</h6>
-                            </div>
-
-                            <div class="checkbox-div">
-                                <input id="checkbox" type="checkbox" name="categoria_ong" required>
-                                <h6 id="checkbox"> Moletons</h6>
-                            </div>
-
-                            <div class="checkbox-div">
-                                <input id="checkbox" type="checkbox" name="categoria_ong" required>
-                                <h6 id="checkbox"> Calçados</h6>
-                            </div>
-
-
-                            <div class="checkbox-div">
-                                <input id="checkbox" type="checkbox" name="categoria_ong" required>
-                                <h6 id="checkbox"> Todos os tipos</h6>
-                            </div>
-
-                        </label>
+                       
                         <br>
                         <label id="label">
 
@@ -226,7 +176,6 @@
                 </section>
 
                 <button id="botao-form" type="submit" onclick="validarCNPJ()">Cadastrar</button>
-                <a href="cadastrodoador.html" id="link-form">É doador?</a>
 
             </form>
 
