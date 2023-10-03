@@ -11,6 +11,28 @@
 
 }
 
+.img{
+    background-image: url(../assets/background1homepage.png);
+    background-size: cover;
+    background-position: fixed;
+    padding-top: 30%;
+}
+
+.inicio {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.div-gradiente-home{
+    background: linear-gradient(to right, #707bff, #fa52ff);
+    width: 100%;
+    height: 0.5rem;
+    margin-top: -10px;
+    margin-left: 0;
+    box-shadow: 10px 10px 61px 10px #8224fe;
+}
+
+
 .principal {
     background: var(--cor-de-fundo);
     color: var(--preto);
@@ -34,6 +56,14 @@
     margin: 0;
     padding-left: 3%;
     padding-right: 3%;
+    text-align: start;
 
+}
 
+.lista__itens1 {
+    list-style: inside;
+}
+
+.titulo__secundario {
+    padding-left: 2%;
 }

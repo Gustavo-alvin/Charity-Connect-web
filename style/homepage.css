@@ -11,6 +11,13 @@
     padding-top: 50px;
 }
 
+.titulo1home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50%;
+}
+
 #titulo1-1{
     color:#fff;
     text-align: center;
