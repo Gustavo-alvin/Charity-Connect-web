@@ -1,0 +1,35 @@
+@import url(header.css);
+@import url(footer.css);
+
+:root {
+    --cor-de-fundo: #181818;
+    --cor-de-fundo-secundario: #E8E3E3;
+    --branco: #fff;
+    --preto: #000000;
+    --titulo-homepage:#fff;
+    --roxo-destaque:#8224fe;
+
+}
+
+.principal {
+    background: var(--cor-de-fundo);
+    color: var(--preto);
+    
+    
+}
+
+.politicas {
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 1.5%;
+    background-color: var(--branco);
+    width: 50%;
+}
+
+.titulo__principal {
+    text-align: center;
+}
+
+.texto {
+    margin: 0;
+}
