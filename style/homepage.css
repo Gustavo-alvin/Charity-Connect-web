@@ -153,3 +153,26 @@ details{
     margin-left: 0;
     box-shadow: 10px 10px 61px 10px #8224fe;
 }
+
+@media screen  and (  max-width: 934px) {
+    .oddshome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #roupahome {
+        width: 100%;
+    }
+
+    #title-odds {
+        text-align: center;
+    }
+
+    .odslogos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        place-items: center;
+    
+    }
+}

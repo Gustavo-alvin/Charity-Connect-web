@@ -134,6 +134,10 @@ box-sizing: border-box;
     transition-duration:0.3s ;
 }
 
+.logo__mobile {
+    display: none;
+}
+
 @media screen  and (max-width: 730px) {
     .nav__bar {
         padding: 1.5rem 4rem;
@@ -149,8 +153,19 @@ box-sizing: border-box;
         display: none;
     }
 
+    .logo {
+        display: none;
+    }
+
     .mobile__menu__icon {
         display: block;
+    }
+
+    .logo__mobile {
+        display: dis;
+        
+        
+    
     }
 
     .mobile__menu__icon button  {
@@ -158,6 +173,8 @@ box-sizing: border-box;
         border: none;
         cursor: pointer;
     }
+
+    
 
     .mobile__menu ul {
         display: flex;
@@ -179,4 +196,6 @@ box-sizing: border-box;
     .mobile__menu .login__buttom button {
         width: 100%;
     }
+
+    
 }
