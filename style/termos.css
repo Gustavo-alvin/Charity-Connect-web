@@ -34,39 +34,29 @@
     box-shadow: 10px 10px 61px 10px #8224fe;
 }
 
-
 .principal {
-    background: var(--cor-de-fundo);
-    color: var(--preto);
     padding: 5%;
-    
-    
+    background-color: black;
 }
 
-.politicas {
-    margin-left: 25%;
-    margin-top: 10%;
-    border-radius: 1.5%;
-    background-color: var(--branco);
-    width: 50%;
+.termos {
+    padding: 3%;
 }
 
-.titulo__principal {
-    text-align: center;
+.termo__geral {
+    background-color: #fff;
+    color: black;
+    padding: 3%;
+    border-radius: 3%;
 }
 
-.texto {
-    margin: 0;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: start;
-
+ul {
+    list-style: decimal;
+}
+h3{
+    transition: 1s;
 }
 
-.lista__itens1 {
-    list-style: inside;
-}
-
-.titulo__secundario {
-    padding-left: 2%;
+h3:hover {
+    transform: translateY(-15px);
 }

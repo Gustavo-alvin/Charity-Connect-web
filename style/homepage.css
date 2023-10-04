@@ -4,18 +4,16 @@
     --roxo-destaque:#8224fe;
 }
 
+.mainhome {
+    background-color: black;
+    padding: 5%;
+}
+
 .parte1home{
     background-image: url(../assets/background1homepage.png);
     background-size: cover;
     background-position: fixed;
     padding-top: 50px;
-}
-
-.titulo1home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -50%;
 }
 
 #titulo1-1{
