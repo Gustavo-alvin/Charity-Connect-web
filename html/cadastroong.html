@@ -77,7 +77,7 @@
 
         <section class="formulario-section">
 
-            <form class="form">
+            <form class="form" action="" method="post">
 
                 <div class="desc-form">
 
@@ -98,21 +98,21 @@
                             <h1 id="nome-input">
                                 Nome da ONG
                             </h1>
-                            <input id="input" type="text" name="nome_ong" maxlength="40"
+                            <input id="inputnomeong" type="text" name="nome_ong" maxlength="40"
                                 placeholder="Digite o nome da ONG" required pattern="[A-Za-z]+">
                         </label>
                         <label id="label">
                             <h1 id="nome-input">
                                 Nome do Representante
                             </h1>
-                            <input id="input" type="text" name="nome_rep" maxlength="100"
+                            <input id="inputnomerep" type="text" name="nome_rep" maxlength="100"
                                 placeholder="Digite o nome do Representante" required pattern="[A-Za-z]+[A-Za-zÀ-ÿ\s]+">
                         </label>
                         <label id="label">
                             <h1 id="nome-input">
                                 Email da organização
                             </h1>
-                            <input id="input" type="email" name="email_ong" maxlength="100"
+                            <input id="inputemail" type="email" name="email_ong" maxlength="100"
                                 placeholder="email@email.com" required>
                         </label>
                         
@@ -130,14 +130,14 @@
                             <h1 id="nome-input">
                                 Número de celular
                             </h1>
-                            <input type="tel" id="input" name="celular" placeholder="(XX) XXXXX-XXXX"
+                            <input type="tel" id="inputnum" name="celular" placeholder="(XX) XXXXX-XXXX"
                                 pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required>
                         </label>
 
                         <div class="endereco-div">
 
                             <label id="label-end">CEP</label>
-                            <input type="text" id="end" name="cep" placeholder="CEP" required 
+                            <input type="text" id="cep" name="cep" placeholder="CEP" required 
                                 pattern="[0-9]{8}">
 
                             <label id="label"> UF
@@ -200,12 +200,12 @@
                         <br>
                         <label id="label">
                             <h1 id="nome-input">Senha: </h1>
-                            <input type="password" id="input" name="senha" required>
+                            <input type="password" id="inputsenha" name="senha" required>
                         </label>
                         <br>
                         <label id="label">
                             <h1 id="nome-input"> Confirmação de Senha:</h1>
-                            <input type="password" id="input" name="confirmar_senha" required>
+                            <input type="password" id="inputsenha1" name="confirmar_senha" required>
                         </label>
 
                     </div>

@@ -78,7 +78,7 @@
 
     <section class="formulario-section">
 
-        <form class="form">
+        <form class="form" method="post" action="">
 
             <div class="desc-form">
 
@@ -99,14 +99,14 @@
                         <h1 id="nome-input">
                             MOTIVO DO CONTATO:
                         </h1>
-                        <input id="input" type="text" name="motivo_contato" maxlength="400"
+                        <input id="inputmotivo" type="text" name="motivo_contato" maxlength="400"
                             placeholder="Digite motivo de contato"  required>
                     </label><br />
                     <label id="label">
                         <h1 id="nome-input">
                             SUA PERGUNTA
                         </h1>
-                        <input id="input" type="text" name="pergunta" maxlength="400"
+                        <input id="inputpergunta" type="text" name="pergunta" maxlength="400"
                             placeholder="Faça sua pergunta"  required>
                     </label><br />
 
@@ -142,7 +142,7 @@
                             CPF:
                         </h1>
                         <input class="form-3__inputs" id="cpf" type="text" name="cpf" maxlength="11"
-                            placeholder="Digite seu cpf" onblur="TestarCPF(strCPF)" required>
+                            placeholder="Digite seu cpf" pattern="[0-9]{11}" required>
                     </label>
 
                     <label id="label">
