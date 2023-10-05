@@ -13,7 +13,8 @@
     background-image: url(../assets/background1homepage.png);
     background-size: cover;
     background-position: fixed;
-    padding-top: 50px;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 #titulo1-1{
