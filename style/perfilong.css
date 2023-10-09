@@ -1,20 +1,33 @@
-main {
+.login-main{
     background-color: #181818;
-    padding: 5%;
+    text-align: center;
+    padding-top: 10%;
 }
 
-.perfil{
-
+.login-section{
     background-color: #fff;
-    width: 95%;
-    height: 100%;
-    margin: 10%;
-    margin-left: 10%;
-    border-radius: 1.5rem;
+    color:#000;
+    margin-left: 20%;
+    margin-right: 20%;
 
+    padding-bottom: 30px;
+    border-radius: 25px;
 }
 
-.painel__perfil {
-    background-color: #;
-    width: 95%;
+#imgongcapa{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px ;
+    filter: brightness(0.9);
+}
+
+#fotoong{
+    width: 30%;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #000;
+    margin-top: -120px;
+}
+
+.conteudo-ong-perfil{
+    margin-top: 3%;
 }
