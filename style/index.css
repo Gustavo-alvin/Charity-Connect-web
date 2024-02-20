@@ -199,16 +199,14 @@ details{
 
 .slider{
     display: flex;
-    aspect-ratio: 1/1;
-    width: 80%;
+    aspect-ratio: 16/9;
     overflow-x: auto;
-
+    width: 100%;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1,5rem 3rem -0.75rem hsla(0, 0% ,0%, 0.25);
     border-radius: 1rem;
     scrollbar-color: #f00;
-    margin-left: 10%;
 }
 
 .slider img{
@@ -216,7 +214,6 @@ details{
     scroll-snap-align: start;
     object-fit: cover;
     padding-bottom: 10px;
-    margin-right: -1px;
 }
 
 .slider-nav{
