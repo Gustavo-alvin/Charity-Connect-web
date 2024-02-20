@@ -200,7 +200,7 @@ details {
 
 .slider-wrapper {
     position: relative;
-    max-width: 73rem;
+    max-width: 65rem;
     margin: 0 auto;
 
 }
@@ -248,19 +248,14 @@ details {
     opacity: 1;
 }
 
-
 * {
     scrollbar-width: auto;
     scrollbar-color: #ffffff #000000;
 }
 
-
 *::-webkit-scrollbar {
     width: 15px;
 
-}
-
-*::-webkit-scrollbar-track {
 }
 
 *::-webkit-scrollbar-thumb {
