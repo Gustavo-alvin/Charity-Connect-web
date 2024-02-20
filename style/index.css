@@ -200,29 +200,34 @@ details{
 .slider{
     display: flex;
     aspect-ratio: 1/1;
-    width: 60%;
+    width: 80%;
     overflow-x: auto;
+
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1,5rem 3rem -0.75rem hsla(0, 0% ,0%, 0.25);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     scrollbar-color: #f00;
+    margin-left: 10%;
 }
 
 .slider img{
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+    padding-bottom: 10px;
+    margin-right: -1px;
 }
 
 .slider-nav{
     display: flex;
     column-gap: 1rem;
     position:absolute;
-    bottom: 1.25rem;
+    bottom: 1rem;
     left:50%;
     transform: translateX(-50%);
     z-index: 1;
+    margin-bottom: 20px;
 }
 
 .slider-nav a{
@@ -237,3 +242,25 @@ details{
 .slider-nav a:hover{
     opacity: 1;
 }
+
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #000000;
+  }
+
+
+  *::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
