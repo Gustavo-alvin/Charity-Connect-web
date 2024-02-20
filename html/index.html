@@ -9,7 +9,9 @@
   <link href="../style/header.css" rel="stylesheet">
   <link href="../style/footer.css" rel="stylesheet">
   <link href="../style/reset.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
@@ -22,49 +24,49 @@
 
   <header class="cabecalho">
     <nav class="nav__bar">
-     <div class="logo">
-         <img src="../assets/shortlogocharitycloset.png" style="width: 100%;" alt="">
-     </div>
+      <div class="logo">
+        <img src="../assets/shortlogocharitycloset.png" style="width: 100%;" alt="">
+      </div>
 
-     <div class="nav__list">
-         <ul>
-             <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-             <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre nós</a></li>
-             <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
-             <li class="nav__item"><a href="perfilong.html" class="nav__link">Meu perfil ong</a></li>
-             
-             
-            </div>
-            </ul>
-          
-     </div>
+      <div class="nav__list">
+        <ul>
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre nós</a></li>
+          <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
+          <li class="nav__item"><a href="perfilong.html" class="nav__link">Meu perfil ong</a></li>
 
-     <div class="login__button">
-         <a href="login.html" id="loginbuttonheader">Entrar</a>
 
-     </div>
+      </div>
+      </ul>
 
-     <div class="logo__mobile">
-      <img src="../assets/charityclosetlogo.png" style="width: 200px;" alt="">
-  </div>
+      </div>
 
-     <div class="mobile__menu__icon">
-     
-         <button onclick="menushow()"><img class="icon" src="../assets/Menu.svg" alt=""></button>
-     </div>
+      <div class="login__button">
+        <a href="login.html" id="loginbuttonheader">Entrar</a>
+
+      </div>
+
+      <div class="logo__mobile">
+        <img src="../assets/charityclosetlogo.png" style="width: 200px;" alt="">
+      </div>
+
+      <div class="mobile__menu__icon">
+
+        <button onclick="menushow()"><img class="icon" src="../assets/Menu.svg" alt=""></button>
+      </div>
     </nav>
-    
-    <div class="mobile__menu">
-     <ul>
-         <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-             <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre nós</a></li>
-     </ul>
 
-     <div class="login__button">
-      <a href="#" id="loginbuttonheader">Entrar</a>
-     </div>
+    <div class="mobile__menu">
+      <ul>
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="sobrenos.html" class="nav__link">Sobre nós</a></li>
+      </ul>
+
+      <div class="login__button">
+        <a href="#" id="loginbuttonheader">Entrar</a>
+      </div>
     </div>
-    
+
   </header>
 
   <main class="mainhome">
@@ -91,13 +93,25 @@
     <div class="div-gradiente-home"></div>
 
     <section class="onu">
-      <div class="odslogos">
-        <img src="../assets/ods1.png" id="logoods">
-        <img src="../assets/ods10.png" id="logoods">
-        <img src="../assets/ods12.png" id="logoods">
-        <img src="../assets/ods17.png" id="logoods">
-      </div>
-      
+
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="/assets/ODS1-04.png" alt="ODS 1 Erradicação da Pobreza">
+            <img id="slide-2" src="/assets/ODS10_Prancheta 1.png" alt="ODS 10 Redução das Desigualdades">
+            <img id="slide-3" src="/assets/ODS12-02.png" alt="ODS 12 Consumo e Produção Responsáveis">
+            <img id="slide-4" src="/assets/ODS17-03.png" alt="ODS 1 Parcerias e Meios de Implementação">
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+          </div>
+        </div>
+      </section>
+
+
       <div class="desc-ods">
         <details>
           <summary>Saiba mais</summary>
