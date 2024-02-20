@@ -117,10 +117,11 @@
 }
 
 .onu {
-    background-color: #000;
+    background: linear-gradient(to right, #707bff, #fa52ff);
+
     text-align: center;
     margin-top: 50px;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 25px;
 
     -webkit-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
     -moz-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
@@ -260,7 +261,6 @@ details {
 }
 
 *::-webkit-scrollbar-track {
-    background: #000000;
 }
 
 *::-webkit-scrollbar-thumb {
