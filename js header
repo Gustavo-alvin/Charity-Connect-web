@@ -1,9 +1,0 @@
-function menushow() {
-    let menuMobile = document.querySelector('.mobile__menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').scr = "assets/shortlogocharitycloset.png";
-    } else {
-        menuMobile.classList.add('open')
-    }
-}
