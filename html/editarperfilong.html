@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../script/cadastrochoice.js"></script>
-    <script type="text/javascript" src="../script/headerbotaohref.js"></script>
-    <script src="../script/perfil.js"></script>
     <link href="../style/editarperfilong.css" rel="stylesheet">
     <link href="../style/header.css" rel="stylesheet">
     <link href="../style/footer.css" rel="stylesheet">
@@ -46,15 +43,10 @@
             <form class="form" method="post" action="">
     
                 <div class="titulo-login">
-                    <img src="../assets/background_ong.jpeg" id="imgongcapa">
-                </div>
-    
-                <img src="../assets/capa2.jpeg" id="fotoong">
-    
-                <div class="conteudo-ong-perfil">
-                    <section class="nome-ong-perfil">
-                        <h1>Soulskien ONG</h1>
-                    </section>
+                   <label class="picture" tabindex="0" for="picture__input">
+                    <input type="file" name="" accept="image/*" id="picture__input" id="">
+                    <span class="picture__image"></span>
+                   </label>
                 </div>
     
                 <section class="inputs-form">
@@ -156,5 +148,6 @@
     </footer>
 
 </body>
-<script type="text/javascript" src="../script/menu.js"></script>
+<script src="../script/menu.js" defer></script>
+<script src="../script/imgPerfil.js" defer></script>
 </html>
