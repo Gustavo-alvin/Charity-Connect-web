@@ -17,6 +17,7 @@ inputFile.addEventListener('change', function(e) {
             img.src =readerTarget.result;
             img.classList.add('picture__img');
 
+            pictureImage.innerHTML = '';
             pictureImage.appendChild(img)
         });
 
