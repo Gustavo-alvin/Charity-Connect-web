@@ -28,6 +28,10 @@
     border-color: rgb(0, 0, 0);
 }
 
+.icon-img-ativo {
+    border-style: double ;
+}
+
 #title-icon{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
