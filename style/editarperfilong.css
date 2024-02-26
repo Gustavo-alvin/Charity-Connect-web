@@ -61,9 +61,10 @@
 }
 
 .picture__img{
-    width: 40rem;
+    width: 56.5rem;
     height: 20rem;
     border-radius: 25px 25px 0px 0px ;
+    
 }
 
 .controler_perfil{
@@ -75,10 +76,11 @@
 display: flexbox;
     position: absolute;
     bottom: 5rem;
-    left: 24rem;
+    top: 26.5em;
+    left: 33rem;
     aspect-ratio: 16/9;
-    width: 16%;
-    height: 35%;
+    width: 12%;
+    height: 22%;
     background: #ddd;
     color: #aaa;
     border: 2px dashed currentColor;
