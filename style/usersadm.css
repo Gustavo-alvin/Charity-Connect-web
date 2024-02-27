@@ -25,6 +25,11 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 100% ;
+    border-color: rgb(0, 0, 0);
+}
+
+.icon-img-ativo {
+    border-style: double ;
 }
 
 #title-icon{
@@ -68,4 +73,17 @@ select{
     color:#fff;
     border-style: none;
     border-radius: 5px;
+}
+
+
+#input {
+    display: none;
+}
+
+.btn-user {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
