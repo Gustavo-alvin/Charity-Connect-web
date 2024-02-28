@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "SoDo Sans SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot");
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")format("svg");
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -11,16 +21,28 @@ ul {
     font-weight: 500;
     color: rgb(255, 255, 255);
     text-decoration:none ;
+    font-family: "SoDo Sans SemiBold";
+    margin-top: 1em;
+}
+
+#itens:hover{
+    border-bottom: 1px solid #8224fe;
+    padding-bottom: 1px;
+    transition: 0.5s;
 }
 
 #cabecalho{
     box-sizing: border-box;
-    height: 70px;
+    left:0;
+    right: 0;
+    z-index: 999;
+    height: 60px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background: #000000;
+    position: fixed;
 }
 
 #menu {
@@ -36,20 +58,17 @@ ul {
 
 .btn-entrar {
     letter-spacing: 0.1em;
-    text-transform: uppercase;
     font-weight: 400;
-    padding: 10px 30px;
     transition: 0.5s;
+    border-radius: 15px;
+    padding-left: 10px;
 }
 
 .btn-entrar:hover {
     background: linear-gradient(to right, #707bff, #fa52ff);
     letter-spacing: 0.25em;
-    box-shadow: 0 0 35px #707bff;
+    box-shadow: 0 0 25px #707bff;
 }
-
-
-
 
 #btn-mobile {
     display: none;
