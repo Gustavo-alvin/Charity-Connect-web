@@ -142,4 +142,15 @@ ul {
     #nav.active #hambuguer::before {
       transform: rotate(135deg);
     }
+
+    .btn-entrar{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1132px) {
+    #cabecalho{ flex-wrap: wrap;
+    padding: 0px;
+    height: 100px;
+    }
 }
