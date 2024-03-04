@@ -46,11 +46,13 @@
 .gerenciamento{
     background-color: #fff;
     float: right;
-    
+    overflow-x: auto;
     padding: 2em;
     border-radius: 10px;
     
 }
+
+
 
 .thead{
     font-weight: bold;
@@ -106,3 +108,4 @@ select{
         justify-content: space-between;
     }
 } 
+

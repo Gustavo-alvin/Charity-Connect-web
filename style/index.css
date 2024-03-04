@@ -102,18 +102,18 @@
     padding-left: 30px;
     padding-bottom: 100px;
     border-radius:25px;
+    text-align: center;
 }
 
 #text-avaliacao {
     color: #fff;
-    margin-left: 10%;
+    
 
 }
 
 #nome-doador {
     color: #fff;
-    margin-left: 15%;
-    margin-top: 20px;
+    
 }
 
 .onu {
@@ -200,7 +200,7 @@ details {
 
 .slider-wrapper {
     position: relative;
-    max-width: 65rem;
+    max-width: 45rem;
     margin: 0 auto;
 
 }
