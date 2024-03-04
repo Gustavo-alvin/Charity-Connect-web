@@ -1,7 +1,5 @@
 .main-users{
-    display: grid;
-    grid-template-columns: repeat(2 1f);
-    justify-items: center;
+    text-align: center;
     padding: 5%;
     background-color: #181818;
 }
@@ -13,7 +11,10 @@
 
 .conteudo{
     display: flex;
-    margin-top: 5%;
+    justify-content: space-between;
+    padding: 5rem;
+    gap: 8rem;
+    
 }
 
 .icons{
@@ -45,8 +46,7 @@
 .gerenciamento{
     background-color: #fff;
     float: right;
-    margin-right: 10%;
-    margin-left: 10%;
+    
     padding: 2em;
     border-radius: 10px;
     
@@ -90,3 +90,19 @@ select{
     justify-content: center;
     flex-direction: column;
 }
+
+@media (max-width:1097px)  {
+    .main-users {
+        display: grid;
+    }
+
+    .conteudo{
+        display: grid;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} 
