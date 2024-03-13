@@ -88,3 +88,19 @@ select{
 .btn-user-escolha:active {
     transform: scale(0.95);
 }
+
+@media (max-width:800px) {
+    
+
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+    }
+
+    .controller-user {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8rem;
+    }
+}
