@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/test.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="../html/index.html" id="logo"><img src="../assets/longlogo-nobackground.png" style="width: 16rem;" alt=""></a>
+        <nav id="nav">
+          <button id="btn-mobile">
+          <span id="hambuguer"></span>
+          </button>
+          <ul id="menu">
+            <li><a id="itens" href="../html/index.html">Home</a></li>
+            <li><a id="itens" href="../html/contato.html">Contato</a></li>
+            <li><a id="itens" href="../html/perfilong.html">Meu Perfil ONG</a></li>
+            <li><a id="itens" href="../html/sobrenos.html">Sobre nós</a></li>
+            <li><a style="--clr:#707bff" class="btn-entrar" id="itens" href="../html/login.html"><span>Entrar</span></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-user">
+        <div>
+            <h1 id="title-main">Gerenciamento de Usuários</h1>
+        </div>
+
+        <div class="container">
+            <div class="controller-user">
+                <label class="label-user" for="btn-user-ong">
+                    <button type="button" class="btn-user-escolha" id="btn-user-ong" onclick="mudarOngs()">
+                        <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
+                    </button>
+                    <span>ONGS</span>
+                </label>
+
+                <label class="label-user" for="btn-user">
+                    <button type="button" class="btn-user-escolha" id="btn-user" onclick="mudarUser()">
+                        <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
+                    </button>
+                    <span>Usuários</span>
+                </label>
+            </div>
+
+            <div class="Gerenciamento">
+                <table class="demo">
+                    <thead>
+                    <tr>
+                        <th id="title-ong">ONG</th>
+                        <th id="title-representante">Representante</th>
+                        <th id="title-email">E-mail Rep</th>
+                        <th id="title-senha">Senha</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td id="title-ong1">&nbsp;LIFEOFPABLO</td>
+                        <td id="nome">&nbsp;CAUÃ</td>
+                        <td id="email">&nbsp;C@HORSE.COM</td>
+                        <td id="senha">&nbsp;FREDDIEMERCURY</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td id="title-ong2">&nbsp;GRADUATION</td>
+                        <td>&nbsp;GUSTAVO</td>
+                        <td>&nbsp;G@HORSE.COM</td>
+                        <td>&nbsp;AMYWINEHOUSE</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select></td>
+                    </tr>
+                    
+                        <td id="title-ong3">&nbsp;YEEZUS</td>
+                        <td>&nbsp;LEANDRO</td>
+                        <td>&nbsp;L@HORSE.COM</td>
+                        <td>&nbsp;FRANKSINATRA</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td id="title-ong4">&nbsp;YE</td>
+                        <td>&nbsp;NATHALIA</td>
+                        <td>&nbsp;N@HORSE.COM</td>
+                        <td>&nbsp;OZZYOSBOURNE</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select></td>
+                    </tr>
+
+
+<tr>
+                        <td id="title-ong5">&nbsp;DONDA</td>
+                        <td>&nbsp;RUAN</td>
+                        <td>&nbsp;I@HORSE.COM</td>
+                        <td>&nbsp;MICHAELJACKSON</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+
+                    <tr>
+                        <td id="title-ong6">&nbsp;WATCHTHRONE</td>
+                        <td>&nbsp;WELLINGTON</td>
+                        <td>&nbsp;W@HORSE.COM</td>
+                        <td>&nbsp;JOHNLENNON</td>
+                        <td>&nbsp;
+                            <select>
+                            <option>APROVADO</option>
+                            <option>BANIDO</option>
+                            <option>ANALISE</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
+
+        </div>
+
+      </main>
+
+      <footer class="footergeral">
+
+        <section class="footercontent">
+
+            <figure class="logofooter">
+                <img id="logofooter" src="../assets/shortlogocharitycloset.png">
+                <h1 id="text-logo-footer">
+                    charity closet.
+                </h1>
+            </figure>
+
+            <div class="footerpart2">
+                <a id="link-footer-pt2" href="sobrenos.html">Sobre o Projeto</a>
+                <a id="link-footer-pt2" href="contato.html">Contato</a>
+            </div>
+
+            <div class="footerpart3">
+                <a id="link-footer-pt3" href="politicas.html">Política de Privacidade</a>
+                <a id="link-footer-pt3" href="termosdeuso.html">Termos de Uso</a>
+
+            </div>
+
+            <div class="divisaodofooter2">
+                <div class="origemdotrabalho">
+                    <div class="integrantesdiv">
+                        <h2 id="itensfooter2">Integrantes:
+                            <li id="itemfooter">02 Cauã Santana</li>
+                            <li id="itemfooter">07 Gustavo Alves</li>
+                            <li id="itemfooter">08 Gustavo Gomes</li>
+                            <li id="itemfooter">14 Leandro Afonso Niches</li>
+                            <li id="itemfooter">24 Natalia Lima </li>
+                             <li id="itemfooter">28 Ruan Pablo Braga Mendes</li>
+                            <li id="itemfooter">33 Wellington Cavalcante </li>
+                           
+                        </h2>
+                    </div>
+                    <div class="profediscfooter">
+                        <h2 id="itensfooter2">ITB - FIEB
+                            <li id="itemfooter">Brasílio Flores de Azevedo</li>
+                        </h2>
+                        <h2 id="itensfooter2">Curso
+                            <li id="itemfooter">Informática 2022 - 2024</li>
+                        </h2>
+                    </div>
+                </div>
+
+        </section>
+
+    </footer>
+
+        <script src="../script/userAdm.js" defer></script>
+</body>
+</html>
