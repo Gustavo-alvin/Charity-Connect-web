@@ -100,6 +100,7 @@ select{
         display: grid;
         grid-template-columns: 100%;
         justify-items: center;
+        gap: 3.5em;
     }
 
     .controller-user {
