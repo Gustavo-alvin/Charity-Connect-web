@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../script/login.js"></script>
-    <script type="text/javascript" src="../script/headerbotaohref.js"></script>
-    <link href="../style/usersadm.css" rel="stylesheet">
-    <link href="../style/header.css" rel="stylesheet">
-    <link href="../style/footer.css" rel="stylesheet">
-    <link href="../style/reset.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Login ADM | Charity Closet</title>
+    <link rel="stylesheet" href="../style/usersadm.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
+ 
+    <title>Document</title>
 </head>
-
 <body>
-
     <header id="cabecalho">
         <a href="../html/index.html" id="logo"><img src="../assets/longlogo-nobackground.png" style="width: 16rem;" alt=""></a>
         <nav id="nav">
@@ -36,53 +33,45 @@
         </nav>
       </header>
 
-    <main class="main-users">
+      <main class="main-user">
+        <div>
+            <h1 id="title-main">Gerenciamento de Usuários</h1>
+        </div>
 
-        <h1 id="title-main">Gerenciamento de Usuários</h1>
-
-        <section class="conteudo">
-
-            <div class="icons">
-
-                <label class="btn-user" for="input">
-                    <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
-                    <input type="radio" name="input1" id="input">
+        <div class="container">
+            <div class="controller-user">
+                <label class="label-user" for="btn-user-ong">
+                    <button type="button" class="btn-user-escolha" id="btn-user-ong" onclick="mudarOngs()">
+                        <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
+                    </button>
                     <span>ONGS</span>
                 </label>
 
-                <!--
-                <figure class="icons-figure">
-                    <img id="icon-img" src="../assets/usericon.png"style="border-style: double; border-width: 5px;">
-                    <h3 id="title-icon" > ONG</h3>
-                </figure>-->
-                <figure class="icons-figure">
-                    <img id="icon-img" src="../assets/usericon.png">
-                    <h3 id="title-icon"> Doador</h3>
-                </figure>
-                <figure class="icons-figure">
-                    <img id="icon-img" src="../assets/usericon.png">
-                    <h3 id="title-icon"> ADM</h3>
-                </figure>
+                <label class="label-user" for="btn-user">
+                    <button type="button" class="btn-user-escolha" id="btn-user" onclick="mudarUser()">
+                        <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
+                    </button>
+                    <span>Usuários</span>
+                </label>
             </div>
 
-            <div class="gerenciamento">
-
+            <div class="Gerenciamento">
                 <table class="demo">
                     <thead>
                     <tr>
-                        <th>ONG</th>
-                        <th>Representante</th>
-                        <th>E-mail Rep</th>
-                        <th>Senha</th>
+                        <th id="title-ong">ONG</th>
+                        <th id="title-representante">Representante</th>
+                        <th id="title-email">E-mail Rep</th>
+                        <th id="title-senha">Senha</th>
                         <th>Status</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>&nbsp;LIFEOFPABLO</td>
-                        <td>&nbsp;CAUÃ</td>
-                        <td>&nbsp;C@HORSE.COM</td>
-                        <td>&nbsp;FREDDIEMERCURY</td>
+                        <td id="title-ong1">&nbsp;LIFEOFPABLO</td>
+                        <td id="nome">&nbsp;CAUÃ</td>
+                        <td id="email">&nbsp;C@HORSE.COM</td>
+                        <td id="senha">&nbsp;FREDDIEMERCURY</td>
                         <td>&nbsp;
                             <select>
                             <option>APROVADO</option>
@@ -92,10 +81,10 @@
                     </td>
                     </tr>
                     <tr>
-                        <td>&nbsp;GRADUATION</td>
-                        <td>&nbsp;GUSTAVO</td>
-                        <td>&nbsp;G@HORSE.COM</td>
-                        <td>&nbsp;AMYWINEHOUSE</td>
+                        <td id="title-ong2">&nbsp;GRADUATION</td>
+                        <td  id="nome2">&nbsp;GUSTAVO</td>
+                        <td id="email2">&nbsp;G@HORSE.COM</td>
+                        <td id="senha2">&nbsp;AMYWINEHOUSE</td>
                         <td>&nbsp;
                             <select>
                             <option>APROVADO</option>
@@ -104,10 +93,10 @@
                         </select></td>
                     </tr>
                     
-                        <td>&nbsp;YEEZUS</td>
-                        <td>&nbsp;LEANDRO</td>
-                        <td>&nbsp;L@HORSE.COM</td>
-                        <td>&nbsp;FRANKSINATRA</td>
+                        <td id="title-ong3">&nbsp;YEEZUS</td>
+                        <td id="nome3">&nbsp;LEANDRO</td>
+                        <td id="email3">&nbsp;L@HORSE.COM</td>
+                        <td id="senha3">&nbsp;FRANKSINATRA</td>
                         <td>&nbsp;
                             <select>
                             <option>APROVADO</option>
@@ -115,8 +104,8 @@
                             <option>ANALISE</option>
                         </select></td>
                     </tr>
-                    <tr>
-                        <td>&nbsp;YE</td>
+                    <tr id="user5">
+                        <td id="title-ong4">&nbsp;YE</td>
                         <td>&nbsp;NATHALIA</td>
                         <td>&nbsp;N@HORSE.COM</td>
                         <td>&nbsp;OZZYOSBOURNE</td>
@@ -129,8 +118,8 @@
                     </tr>
 
 
-<tr>
-                        <td>&nbsp;DONDA</td>
+<tr id="user6">
+                        <td id="title-ong5">&nbsp;DONDA</td>
                         <td>&nbsp;RUAN</td>
                         <td>&nbsp;I@HORSE.COM</td>
                         <td>&nbsp;MICHAELJACKSON</td>
@@ -143,8 +132,8 @@
                     </tr>
                     <tr>
 
-                    <tr>
-                        <td>&nbsp;WATCHTHRONE</td>
+                    <tr id="user7">
+                        <td id="title-ong6">&nbsp;WATCHTHRONE</td>
                         <td>&nbsp;WELLINGTON</td>
                         <td>&nbsp;W@HORSE.COM</td>
                         <td>&nbsp;JOHNLENNON</td>
@@ -158,16 +147,13 @@
                     </tr>
                     <tbody>
                 </table>
-
             </div>
 
-        </section>
+        </div>
 
-        <div style="width: 100%; height: 30px; background-color: #181818;"></div>
+      </main>
 
-    </main>
-
-    <footer class="footergeral">
+      <footer class="footergeral">
 
         <section class="footercontent">
 
@@ -217,7 +203,6 @@
 
     </footer>
 
+        <script src="../script/userAdm.js" defer></script>
 </body>
-<script type="text/javascript" src="../script/menu.js" defer></script>
-<script type="text/javascript" src="../script/userAdm.js" defer></script>
 </html>
