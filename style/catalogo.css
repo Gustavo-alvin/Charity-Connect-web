@@ -24,11 +24,12 @@
 
     padding: 1rem 1.6rem;
     border-radius: .8rem;
-    background-color: #444448;
+    background-color: #ffffff;
     border: 0;
     width: 75%;
-    color: white;
-    font-size: 1.6rem;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .input-wrapper i {
@@ -105,7 +106,14 @@
   }
 
   li .saiba_mais:hover {
-    color: #5e2281;
+    color: #000;
+    background-color: #fff;
+    transition: 0.6s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
   }
 
   .item1 img{
@@ -114,20 +122,22 @@
     box-shadow: 5px  5px 10px 5px #0000006e;
   }
 
+
+
   .select-wrapper {
     display: flex;
     margin: 0 auto;
     margin-bottom: 1rem;
-    align-items: center;
+    align-items: left;
     box-sizing: border-box;
     position: relative;
     border: 1px solid transparent;
     border-radius: 12px;
     overflow: hidden;
-    background: #3D3D3D;
+    background: #fff;
     padding: 9px;
     cursor: text;
-    width: 50%;
+    width: 15em;
   }
 
   .select-wrapper:hover {
@@ -142,7 +152,22 @@
   .select-wrapper select {
     outline: none;
     width: 100%;
-    border: none;
+    border: 0 none;
+    border-color: #fff;
     background: none;
-    color: rgb(162, 162, 162);
+    color: #000000;
+    font-weight: bolder;
+  }
+
+  #interestsSelect{
+    border: 0 none;
+    border-style: none;
+    border-color: #fff;
+  }
+
+  .select-wrapper option{
+    background-color: #181818;
+    color:#ffffff;
+    border: none;
+    border-color: #fff;
   }
