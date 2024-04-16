@@ -22,3 +22,74 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   }
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const filterInput = document.querySelector('#filter');
+    const roupasCheckbox = document.querySelector('#roupaCheckbox');
+    const alimentosCheckbox = document.querySelector('#alimentoCheckbox');
+    const brinquedosCheckbox = document.querySelector('#brinquedoCheckbox');
+    const monetariaCheckbox = document.querySelector('#monetariaCheckbox');
+    const cards = document.querySelectorAll('.cards li');
+
+    filterInput.addEventListener('input', filterCards);
+    roupasCheckbox.addEventListener('change', filterCards);
+    alimentosCheckbox.addEventListener('change', filterCards);
+    brinquedosCheckbox.addEventListener('change', filterCards);
+    monetariaCheckbox.addEventListener('change', filterCards);
+
+    function filterCards() {
+        const filterText = filterInput.value.toLowerCase();
+        const roupasChecked = roupasCheckbox.checked;
+        const alimentosChecked = alimentosCheckbox.checked;
+        const brinquedosChecked = brinquedosCheckbox.checked;
+        const monetariaChecked = monetariaCheckbox.checked;
+
+        for (let card of cards) {
+            const title = card.querySelector('h2').textContent.toLowerCase();
+            const interests = card.dataset.interests.toLowerCase();
+
+            const titleMatches = title.includes(filterText);
+            const interestsMatch =
+                (roupasChecked && interests.includes('roupa')) ||
+                (alimentosChecked && interests.includes('alimento')) ||
+                (brinquedosChecked && interests.includes('brinquedo')) ||
+                (monetariaChecked && interests.includes('monetaria'));
+
+            if (titleMatches && interestsMatch) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        }
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const filterInput = document.querySelector('#filter');
+    const interestsSelect = document.querySelector('#interestsSelect');
+    const cards = document.querySelectorAll('.cards li');
+
+    filterInput.addEventListener('input', filterCards);
+    interestsSelect.addEventListener('change', filterCards);
+
+    function filterCards() {
+        const filterText = filterInput.value.toLowerCase();
+        const selectedInterest = interestsSelect.value.toLowerCase();
+
+        for (let card of cards) {
+            const title = card.querySelector('h2').textContent.toLowerCase();
+            const interests = card.dataset.interests.toLowerCase();
+
+            const titleMatches = title.includes(filterText);
+            const interestsMatch = interests.includes(selectedInterest) || selectedInterest === '';
+
+            if (titleMatches && interestsMatch) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        }
+    }
+});

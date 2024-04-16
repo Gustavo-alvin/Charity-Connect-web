@@ -46,9 +46,33 @@
       <input id="filter" type="text" placeholder="Filter">
       <i class="ph-magnifying-glass"></i>
     </div>
+
+    <div class="checkbox-wrapper" style="display: flex; color:#fff">
+      <input type="checkbox" id="roupaCheckbox" value="roupa">
+      <label for="roupaCheckbox">Roupa</label>
+      <input type="checkbox" id="alimentoCheckbox" value="alimento">
+      <label for="alimentoCheckbox">Alimento</label>
+      <input type="checkbox" id="brinquedoCheckbox" value="brinquedo">
+      <label for="brinquedoCheckbox">Brinquedos</label>
+      <input type="checkbox" id="monetariaCheckbox" value="monetaria">
+      <label for="monetariaCheckbox">Monetária</label>
+  </div>
+
+  <div class="select-wrapper">
+    <select id="interestsSelect">
+        <option value="">Selecione um interesse</option>
+        <option value="roupa">Roupas</option>
+        <option value="alimento">Alimentos</option>
+        <option value="brinquedo">Brinquedos</option>
+        <option value="monetaria">Monetária</option>
+    </select>
+</div>
+
+
+
     <section class="cards">
       <ul class="cards">
-        <li class="li_card">
+        <li class="li_card" data-interests="monetaria">
           <div class="item1">
             <img src="../assets/ongs-02.png"  alt="">
            </div>
@@ -63,7 +87,7 @@
           </div>
          
         </li>
-        <li class="li_card">
+        <li class="li_card" data-interests="brinquedo">
           <div class="item1">
             <img src="../assets/ongs-03.png" alt="">
            </div>
@@ -78,7 +102,7 @@
           
           
         </li>
-        <li class="li_card">
+        <li class="li_card" data-interests="roupa">
           <div class="item1">
             <img src="../assets/ongs-04.png"  alt="">
            </div>
@@ -93,7 +117,7 @@
           
           
         </li>
-        <li class="li_card" style="border-radius: 20px; box-shadow: 5px  5px 10px 5px #249cfe59;">
+        <li class="li_card" data-interests="alimento" style="border-radius: 20px; box-shadow: 5px  5px 10px 5px #249cfe59;">
           <div class="item1">
             <img src="../assets/ongs-05.png"  alt="">
            </div>
