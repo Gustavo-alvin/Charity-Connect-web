@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
               if (!title.includes(filterText)) {
                   card.style.display = "none";
               } else {
-                  card.style.display = 'block';
+                  card.style.display = '';
               }
           }
       } else {
           for (let card of cards) {
-              card.style.display = 'block';
+              card.style.display = '';
           }
       }
   }
