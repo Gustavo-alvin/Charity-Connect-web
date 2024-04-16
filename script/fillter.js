@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-
+//inicio do filter checkbox
+/*
 
 document.addEventListener('DOMContentLoaded', function() {
     const filterInput = document.querySelector('#filter');
@@ -64,7 +65,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
-});
+});*/
+//fim do filter checkbox
+
+//inicio do filter select
 
 document.addEventListener('DOMContentLoaded', function() {
     const filterInput = document.querySelector('#filter');

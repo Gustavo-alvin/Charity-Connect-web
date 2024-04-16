@@ -16,7 +16,8 @@
 
   .input-wrapper {
     position: relative;
-    padding: 5em;
+    padding-top: 5rem;
+    padding-bottom: 1em;
     margin-left: 14em;
   }
   input {
@@ -40,7 +41,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.6rem;
-  
     list-style: none;
   }
 
@@ -112,4 +112,37 @@
     width: 15em; 
     border-radius: 20px; 
     box-shadow: 5px  5px 10px 5px #0000006e;
+  }
+
+  .select-wrapper {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #3D3D3D;
+    padding: 9px;
+    cursor: text;
+    width: 50%;
+  }
+
+  .select-wrapper:hover {
+    border-color: gray;
+  }
+  
+  .select-wrapper:focus-within {
+    background: #464646;
+    border-color: gray;
+  }
+
+  .select-wrapper select {
+    outline: none;
+    width: 100%;
+    border: none;
+    background: none;
+    color: rgb(162, 162, 162);
   }
