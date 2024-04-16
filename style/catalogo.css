@@ -107,3 +107,9 @@
   li .saiba_mais:hover {
     color: #5e2281;
   }
+
+  .item1 img{
+    width: 15em; 
+    border-radius: 20px; 
+    box-shadow: 5px  5px 10px 5px #0000006e;
+  }
