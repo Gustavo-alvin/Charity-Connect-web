@@ -6,3 +6,9 @@ function ToggleMenu() {
 }
 
 btnMobile.addEventListener('click', ToggleMenu);
+
+
+/* navegação com button 
+function login() {
+    window.location.href = "login.html";
+  }*/

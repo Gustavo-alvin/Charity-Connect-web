@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
           for (let card of cards) {
               let title = card.querySelector('h2').textContent.toLowerCase();
               let filterText = filterElement.value.toLowerCase();
-              if (!title.includes(filterText)) {
+              if (!title.includes(filterText) ) {
                   card.style.display = "none";
               } else {
                   card.style.display = '';

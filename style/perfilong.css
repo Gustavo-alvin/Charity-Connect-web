@@ -1,15 +1,17 @@
+* {
+    color: #ffffff
+}
+
 .login-main{
     background-color: #181818;
     text-align: center;
     padding-top: 10%;
-    display: grid;
-    grid-template-columns: auto;
-    place-items: center;
+    box-sizing: border-box;
 
 }
 
 .login-section{
-    background-color: #fff;
+    background-color: #181818;
     color:#000;
    
     width: 50%;
@@ -59,4 +61,53 @@ button {
 #link_entrar {
     text-decoration: none;
     color: white;
+}
+
+.profile {
+    background: #181818;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+   
+}
+
+.profile_ong {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70em;
+    box-shadow: 5px  5px 10px 5px #0000006e;
+    padding: 2em;
+    background: #444448;
+    border-radius: 1em;
+}
+
+.profile_ong img {
+    
+    margin-left: 2em;
+    width: 15em; 
+    border-radius: 20px; 
+    box-shadow: 5px  5px 10px 5px #0000006e;
+}
+
+.title_ong {
+    width: 50%;
+    align-items: center;
+}
+
+.description {
+    margin-left: 1.5em;
+    text-align: left;
+}
+
+.info_ong {
+    background: #444448;
+    width: 68em;
+}
+
+.item {
+    width: 20em;
+}
+
+.title_item {
+    transform: ;
 }
