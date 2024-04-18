@@ -48,7 +48,6 @@
       <div class="input-wrapper">
         <label for="filter" class="sr-only">Pesquisar</label>
         <input id="filter" type="text" placeholder="Pesquisar">
-        <i class="ph-magnifying-glass"></i>
       </div>
       <!--
     <div class="checkbox-wrapper" style="display: flex; color:#fff">
@@ -61,7 +60,19 @@
       <input type="checkbox" id="monetariaCheckbox" value="monetaria">
       <label for="monetariaCheckbox">Monetária</label>
   </div>
-  -->
+-->
+
+<div class="category-filter">
+      <div class="select-wrapper-city">
+        <select id="interestsSelect-city">
+          <option value="">Selecione uma Cidade</option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Barueri">Barueri</option>
+          <option value="Osasco">Osasco</option>
+          <option value="Carapicuíba">Carapicuíba</option>
+        </select>
+      </div>
+
 
       <div class="select-wrapper">
         <select id="interestsSelect">
@@ -73,11 +84,13 @@
         </select>
       </div>
 
+     
 
+    </div>
 
       <section class="cards">
         <ul class="cards">
-          <li class="li_card" data-interests="monetaria">
+          <li class="li_card" data-interests="monetaria" data-city="Barueri">
             <div class="item1">
               <img src="../assets/ongs-02.png" alt="">
             </div>
@@ -88,7 +101,7 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quasi, laborum quisquam fugit aut
                 maiores eveniet nemo incidunt distinctio et ducimus.
               </p>
-              <a class="saiba_mais" href="#">Saiba Mais</a>
+              <a class="saiba_mais" href="../html/perfilong.html">Saiba Mais</a>
 
             </div>
 

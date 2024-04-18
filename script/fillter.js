@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
   const filterElement = document.querySelector('main input');
   const cards = document.querySelectorAll('.cards li');
 
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       }
   }
-});
+});/+
 
 //inicio do filter checkbox
 /*

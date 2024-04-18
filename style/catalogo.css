@@ -170,4 +170,78 @@
     color:#ffffff;
     border: none;
     border-color: #fff;
+    
+  }
+
+  .category-filter {
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    max-width: 55em;
+    margin: 0 auto;
+    align-items: center;
+   
+    
+  }
+
+  .select-wrapper-city {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    align-items: left;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    padding: 9px;
+    cursor: text;
+    width: 15em;
+  }
+
+  .select-wrapper-city:hover {
+    border-color: gray;
+  }
+  
+  .select-wrapper-city:focus-within {
+    background: #464646;
+    border-color: gray;
+  }
+
+  .select-wrapper-city select {
+    outline: none;
+    width: 100%;
+    border: 0 none;
+    border-color: #fff;
+    background: none;
+    color: #000000;
+    font-weight: bolder;
+  }
+
+  #interestsSelect-city{
+    border: 0 none;
+    border-style: none;
+    border-color: #fff;
+  }
+
+  .select-wrapper-city option{
+    background-color: #181818;
+    color:#ffffff;
+    border: none;
+    border-color: #fff;
+    
+  }
+
+  .filter-button {
+    padding: 9px 38px;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
+    background-color: #707cff;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
   }
