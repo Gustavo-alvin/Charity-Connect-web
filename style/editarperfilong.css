@@ -136,7 +136,7 @@ input:focus {
 .form-2__inputs  {
     padding-left: 10px;
     padding-right: 10px;
-    width: 96%;
+    width: 100%;
     border-color: #8224fe;
     background-color: #fff;
     color: #8224fe;
@@ -194,7 +194,7 @@ label {
 #cnpj {
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 10px;
+    
     border-color: #8224fe;
     background-color: #fff;
     color: #8224fe;
@@ -287,6 +287,18 @@ label {
     background-color: #f952ff;
     transition-duration: 0.5s;
     transform: scale(1.1);
+}
+
+#selectuf{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #8224fe;
+    background-color: #fff;
+    color: #8224fe;
+    width: 100%;
+    font-weight: 600;
 }
 
 @media (max-width:1131px) {

@@ -73,12 +73,13 @@ button {
 
 .profile_ong {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto ;
     width: 70em;
     box-shadow: 5px  5px 10px 5px #0000006e;
     padding: 2em;
     background: #444448;
-    border-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 .profile_ong img {
@@ -92,6 +93,7 @@ button {
 .title_ong {
     width: 50%;
     align-items: center;
+
 }
 
 .description {
@@ -101,13 +103,29 @@ button {
 
 .info_ong {
     background: #444448;
-    width: 68em;
+    width: 70em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    
 }
 
-.item {
-    width: 20em;
-}
+
 
 .title_item {
-    transform: ;
+    text-transform: uppercase;
+    text-align: left;
+    width: 30em;
+    padding: 1em;
+    border-top: 1px solid #ffffffaf;
 }
+
+.info_item {
+    width: 50em;
+    padding: 1em;
+    text-align: left;
+    border-top: 1px solid #ffffffaf;
+    
+}
+
+
+
