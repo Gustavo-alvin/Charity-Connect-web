@@ -244,4 +244,24 @@
     font-size: 18px;
     text-decoration: none;
     border: none;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 934px) {
+    .input-wrapper {
+      margin: 0 ;
+    }
+    #filter {
+      width: 80%;
+      margin-left: 2.5em;
+    }
+
+    .category-filter {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    #select-wrapper-city {
+      width: 10em;
+    }
   }
