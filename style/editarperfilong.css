@@ -2,7 +2,7 @@
     background-color: #181818;
     margin: 0;
     text-align: center;
-    padding: 5%;
+    
 }
 
 .formulario-section{
@@ -301,8 +301,26 @@ label {
     font-weight: 600;
 }
 
-@media (max-width:1131px) {
+@media screen and (max-width: 934px) {
+    .background {
+        background: #181818;
+    }
+    .picture{
+        margin-top: 2em;
+    }
     .formulario-section {
-        margin-top: 15%;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .form-1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .botao-form {
+        margin-bottom: 2em;
     }
 }
