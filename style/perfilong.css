@@ -74,7 +74,7 @@ button {
 .profile_ong {
     display: grid;
     grid-template-columns: auto auto auto ;
-    width: 70em;
+    width: 83%;
     box-shadow: 5px  5px 10px 5px #0000006e;
     padding: 2em;
     background: #444448;
@@ -103,10 +103,14 @@ button {
 
 .info_ong {
     background: #444448;
-    width: 70em;
+    width: 83%;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
-    
+    overflow-x: auto;
+}
+
+table {
+    overflow-x: auto;   
 }
 
 
@@ -125,6 +129,34 @@ button {
     text-align: left;
     border-top: 1px solid #ffffffaf;
     
+}
+
+@media screen and (max-width: 934px) {
+    .profile_ong {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0;
+        margin-top: 5em;
+        width: 100%;
+    }
+
+    .profile_ong img {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+
+    .title_ong {
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn_editar {
+        margin-bottom: 2em;
+    }
+
+    .info_ong {
+        width: 100%;
+    }
 }
 
 

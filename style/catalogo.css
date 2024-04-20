@@ -258,10 +258,25 @@
 
     .category-filter {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto ;
     }
 
     #select-wrapper-city {
       width: 10em;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .cards {
+      padding: 0;
+    }
+
+    .li_card {
+      display: block;
+      width: 90%;
+      text-align: center;
     }
   }

@@ -13,7 +13,7 @@
 
 .principal {
     background-color: black;
-    padding: 5%;
+    
 }
 
 body {
@@ -29,6 +29,8 @@ body {
     text-align: center;
     margin-top: 2rem;
     border-radius: 25px 25px 0px 0px;
+    width: 90%;
+    margin:  0 auto;
 }
 
 #texto__sobre {
@@ -52,6 +54,8 @@ body {
     color: var(--branco);
     padding: 5% 5%;
     text-align: center;
+    width: 90%;
+    margin:  0 auto;
 }
 
 #cahrity_closet {
@@ -72,6 +76,8 @@ body {
 .container__terceario {
     background-color:var(--preto) ;
     color: var(--branco);
+    width: 90%;
+    margin:  0 auto;
 }
 
 #texto__3 {
@@ -126,6 +132,8 @@ body {
     padding: 3%;
     gap: 15rem;
     border-radius: 25px;
+    width: 90%;
+    margin:  0 auto;
 
     -webkit-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
     -moz-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
@@ -170,6 +178,8 @@ strong {
     margin-top: -10px;
     margin-left: 0;
     box-shadow: 10px 10px 61px 10px #8224fe;
+    width: 90%;
+    margin:  0 auto;
 }
 
 #logoods{
@@ -187,7 +197,11 @@ strong {
     color: #ffffff;
 }
 
-@media (max-width:800px) {
+@media screen and (max-width: 934px) {
+    .container__principal{
+        margin-top: 2em;
+    }
+    
     .container__quarteario {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
