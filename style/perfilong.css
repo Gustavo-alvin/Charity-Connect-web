@@ -42,10 +42,10 @@
 button {
     background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
     background-color: #707cff;
-    border-radius: 5rem;
+    border-radius: 25px;
     cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
+    font-family: helvetica;
     font-size: 18px;
     padding: 5px 38px;
     text-decoration: none;
@@ -129,6 +129,16 @@ table {
     text-align: left;
     border-top: 1px solid #ffffffaf;
     
+}
+
+#buttonperfil{
+    border-radius: 25px;
+}
+
+#buttonperfil:hover{
+    background: linear-gradient(to left, #707cff 5%, #f952ff 100%);
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 934px) {
