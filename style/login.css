@@ -1,10 +1,10 @@
 .login-main{
-    background-color: #181818;
+    background: linear-gradient(to right, #707cff 5%, #8224fe 100%);
     text-align: center;
 }
 
 .login-section{
-    background-color: #fff;
+    background-color: #ffffff;
     color:#000;
     margin-left: 20%;
     margin-right: 20%;
@@ -30,7 +30,7 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #8224fe;
+    border-color: #707cff;
     background-color: #fff;
     color: #8224fe;
     font-weight: 600;
@@ -43,11 +43,11 @@
 }
 
 #botao-form {
-    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
     background-color: #707cff;
     border-radius: 16px;
     cursor: pointer;
     color: #ffffff;
+    font-weight: bold;
     font-family: Arial;
     font-size: 18px;
     padding: 5px 38px;
@@ -58,19 +58,19 @@
 }
 
 #botao-form:hover {
-    background: linear-gradient(to right, #f952ff 5%, #707cff 100%);
-    background-color: #f952ff;
+    background: #707cfb;
+    background-color: #707cfb;
     transition-duration: 0.5s;
     transform: scale(1.1);
 
 }
 
 #redirecionar {
-    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
     background-color: #707cff;
     border-radius: 16px;
     cursor: pointer;
     color: #ffffff;
+    font-weight: bold;
     font-family: Arial;
     font-size: 18px;
     padding: 5px 38px;
@@ -80,8 +80,8 @@
 }
 
 #redirecionar:hover {
-    background: linear-gradient(to right, #f952ff 5%, #707cff 100%);
-    background-color: #f952ff;
+    background: linear-gradient(to right, #97fcc0 5%, #707cff 100%);
+    background-color: #97fcc0;
     transition-duration: 0.5s;
     transform: scale(1.1);
 
