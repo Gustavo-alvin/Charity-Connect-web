@@ -3,9 +3,10 @@
 }
 
 .login-main{
-    background-color: #181818;
+    background: linear-gradient(to right, #707bff, #8224fe);
+
     text-align: center;
-    padding-top: 10%;
+    padding-top: 7em;
     box-sizing: border-box;
 
 }
@@ -75,10 +76,10 @@
 .profile_ong {
     display: grid;
     grid-template-columns: auto auto auto ;
-    width: 83%;
-    box-shadow: 5px  5px 10px 5px #0000006e;
+    width: 50em;
     padding: 2em;
-    background: #444448;
+    background-color: rgba(10,10,10,0.4);
+
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
 }
@@ -92,8 +93,8 @@
 }
 
 .title_ong {
-    width: 50%;
-    align-items: center;
+    width: 80%;
+    align-items: left;
 
 }
 
@@ -105,7 +106,8 @@
 .info_ong {
     background-color: rgba(10,10,10,0.4);
 
-    width: 83%;
+    width: 50em;
+
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     overflow-x: auto;
