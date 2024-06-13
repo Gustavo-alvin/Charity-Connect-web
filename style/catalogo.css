@@ -1,5 +1,5 @@
 .background {
-    background-color: #181818;
+  background: linear-gradient(to right, #707bff, #8224fe);
 }
 
 .sr-only {
@@ -54,7 +54,7 @@
     display: grid;
     grid-template-columns: auto auto auto ;
     margin: 0 auto;
-    background-color: #444448;
+    background-color: rgba(10,10,10,0.4);
     width: 40em;
     padding: 2rem;
     border-radius: .8rem;

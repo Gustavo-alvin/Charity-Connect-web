@@ -11,7 +11,7 @@
 }
 
 .login-section{
-    background-color: #181818;
+    background: linear-gradient(to right, #707bff, #8224fe);
     color:#000;
    
     width: 50%;
@@ -64,7 +64,8 @@
 }
 
 .profile {
-    background: #181818;
+    background: linear-gradient(to right, #707bff, #8224fe);
+
     display: grid;
     align-items: center;
     justify-items: center;
@@ -102,7 +103,8 @@
 }
 
 .info_ong {
-    background: #444448;
+    background-color: rgba(10,10,10,0.4);
+
     width: 83%;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
