@@ -41,17 +41,18 @@
 }
 
 #buttonperfil {
-    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
     background-color: #707cff;
-    border-radius: 25px;
+    border-radius: 16px;
     cursor: pointer;
     color: #ffffff;
-    font-family: helvetica;
+    font-weight: bold;
+    font-family: Arial;
     font-size: 18px;
     padding: 5px 38px;
     text-decoration: none;
     border: none;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #btn {
@@ -139,11 +140,6 @@ table {
     border-radius: 25px;
 }
 
-#buttonperfil:hover{
-    background: linear-gradient(to left, #707cff 5%, #f952ff 100%);
-    transition-duration: 0.5s;
-    letter-spacing: 1px;
-}
 
 @media screen and (max-width: 934px) {
     .profile_ong {

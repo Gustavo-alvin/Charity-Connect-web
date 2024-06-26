@@ -136,7 +136,7 @@
     border: 1px solid transparent;
     border-radius: 12px;
     overflow: hidden;
-    background: #fff;
+    background-color: rgba(10,10,10,0.4);
     padding: 9px;
     cursor: text;
     width: 15em;
@@ -157,8 +157,7 @@
     border: 0 none;
     border-color: #fff;
     background: none;
-    color: #000000;
-    font-weight: bolder;
+    color: #fff;
   }
 
   #interestsSelect{
@@ -195,7 +194,7 @@
     border: 1px solid transparent;
     border-radius: 12px;
     overflow: hidden;
-    background: #fff;
+    background-color: rgba(10,10,10,0.4);
     padding: 9px;
     cursor: text;
     width: 15em;
@@ -216,8 +215,7 @@
     border: 0 none;
     border-color: #fff;
     background: none;
-    color: #000000;
-    font-weight: bolder;
+    color:#fff;
   }
 
   #interestsSelect-city{
@@ -281,4 +279,9 @@
       width: 90%;
       text-align: center;
     }
+  }
+
+  input::placeholder {
+    color: #ffffff;
+    font-weight: 400;
   }
