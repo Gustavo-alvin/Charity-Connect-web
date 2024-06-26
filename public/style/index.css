@@ -6,7 +6,7 @@
     --cinza-ainda-mais-escuro: #101010;
 }
 .background {
-    background: var(--cinza-ainda-mais-escuro);
+    background-color:#161b22;
 }
 
 .mainhome {
@@ -121,15 +121,15 @@
 }
 
 .onu {
-    background: linear-gradient(to right, #707bff, #8224fe);
+    background-color: #150031;
 
     text-align: center;
     margin-top: 50px;
     border-radius: 25px;
 
-    -webkit-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
-    -moz-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
-    box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
+    -webkit-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 0.5);
+    -moz-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 0.5);
+    box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 0.5);
 
     margin-bottom: 5rem;
 
@@ -170,7 +170,7 @@ details {
     height: 10px;
     margin-top: -10px;
     margin-left: 0;
-    box-shadow: 10px 10px 61px 10px #8224fe;
+    box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 0.5);
 
 }
 

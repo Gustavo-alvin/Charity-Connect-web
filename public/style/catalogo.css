@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(to right, #707bff, #8224fe);
+  background-color: #161b22;
 }
 
 .sr-only {
@@ -63,7 +63,6 @@
     color: white;
     gap: 1em;
     column-gap: 2em;
-    
     transition: all .2s;
 
   }
@@ -99,7 +98,7 @@
   
   li .saiba_mais {
     display: inline-block;
-    color: white;
+    color: #707bff;
     margin-top: 1.6rem;
     font-weight: bold;
     text-decoration: none;
@@ -246,6 +245,12 @@
     border: none;
     box-sizing: border-box;
   }
+
+.cards{
+  display: grid;
+  grid-template-columns: auto auto ;
+  justify-content: space-around;
+}
 
   @media screen and (max-width: 934px) {
     .input-wrapper {
