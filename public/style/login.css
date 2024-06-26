@@ -80,11 +80,8 @@
 }
 
 #redirecionar:hover {
-    background: linear-gradient(to right, #97fcc0 5%, #707cff 100%);
-    background-color: #97fcc0;
     transition-duration: 0.5s;
     transform: scale(1.1);
-
 }
 
 @media screen and (max-width: 934px){

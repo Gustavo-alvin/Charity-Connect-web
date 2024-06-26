@@ -15,19 +15,21 @@
   }
 
   .input-wrapper {
-    position: relative;
+
+
     padding-top: 5rem;
     padding-bottom: 1em;
-    margin-left: 14em;
+    text-align: center;
   }
   input {
 
     padding: 1rem 1.6rem;
     border-radius: .8rem;
-    background-color: #ffffff;
+    background-color: rgba(10,10,10,0.4);
     border: 0;
     width: 75%;
-    color: #000000;
+    color: #ffffff;
+    letter-spacing: 1px;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -175,7 +177,7 @@
 
   .category-filter {
     display: grid;
-    grid-template-columns: auto auto auto  ;
+    grid-template-columns: auto auto   ;
     max-width: 55em;
     margin: 0 auto;
     align-items: center;
