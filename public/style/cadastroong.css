@@ -1,5 +1,5 @@
 .cadastroong {
-    background-color: #181818;
+    background-color: #161b22;
     margin: 0;
     text-align: center;
     padding-top: 50px;
@@ -50,9 +50,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #8224fe;
+    border-color: #707cfb;
     background-color: #fff;
-    color: #8224fe;
+    color: #707cfb;
     font-weight: 600;
 }
 
@@ -64,7 +64,7 @@ input {
 
 .form-1 {
     display: grid;
-    border-right: #8224fe;
+    border-right: #707cfb;
     border-left: #fff;
     border-top: #fff;
     border-bottom: #fff;
@@ -81,9 +81,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #8224fe;
+    border-color: #707cfb;
     background-color: #fff;
-    color: #8224fe;
+    color: #707cfb;
     font-weight: 600;
 
 }
@@ -99,7 +99,7 @@ input {
 #textarea-form {
     resize: none;
     padding: 5px;
-    border: #8224fe;
+    border: #707cfb;
     border-style: solid;
     border-radius: 10px;
 
@@ -114,9 +114,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #8224fe;
+    border-color: #707cfb;
     background-color: #fff;
-    color: #8224fe;
+    color: #707cfb;
     font-weight: 600;
 }
 
@@ -126,7 +126,7 @@ input {
 }
 
 #botao-form {
-    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
+    background: #707cfb;
     background-color: #707cff;
     border-radius: 16px;
     cursor: pointer;
@@ -141,8 +141,8 @@ input {
 }
 
 #botao-form:hover {
-    background: linear-gradient(to right, #f952ff 5%, #707cff 100%);
-    background-color: #f952ff;
+    background: #707cfb;
+    background-color: #707cfb;
     transition-duration: 0.5s;
     transform: scale(1.1);
 
@@ -175,9 +175,9 @@ input {
     padding-right: 10px;
     border-width: 2px;
     border-radius: 10px;
-    border-color: #8224fe;
+    border-color: #707cfb;
     background-color: #fff;
-    color: #8224fe;
+    color: #707cfb;
     font-weight: 600;
 }
 
@@ -205,7 +205,7 @@ input {
     }
 
     .form-2 {
-        border-right: #8224fe;
+        border-right: #707cfb;
         border-left: #fff;
         border-top: #fff;
         border-bottom: #fff;
