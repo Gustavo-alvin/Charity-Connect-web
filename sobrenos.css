@@ -2,7 +2,7 @@
 @import url(footer.css);
 
 :root {
-    --cor-de-fundo: #222020;
+    --cor-de-fundo: #161b22;
     --cor-de-fundo-secundario: #E8E3E3;
     --branco: #ffffff;
     --preto: #000000;
@@ -12,7 +12,7 @@
 }
 
 .principal {
-    background-color: black;
+    background-color: #161b22;
     padding: 5%;
 }
 
@@ -48,7 +48,8 @@ body {
 
 
 .container__secundario {
-    background-color: #181818;
+    background-color: rgba(0,0,0,0.3
+    );
     color: var(--branco);
     padding: 5% 5%;
     text-align: center;
@@ -72,6 +73,7 @@ body {
 .container__terceario {
     background-color:var(--preto) ;
     color: var(--branco);
+    padding-left: 3em;
 }
 
 #texto__3 {
