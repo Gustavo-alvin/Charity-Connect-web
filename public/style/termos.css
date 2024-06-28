@@ -60,3 +60,12 @@ h3{
 h3:hover {
     transform: translateY(-15px);
 }
+
+.container_secundario{
+    background-color: rgba(0,0,0);
+}
+
+.container__terceario{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 0px 0px 25px 25px ;
+}
