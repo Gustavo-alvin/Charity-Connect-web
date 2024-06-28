@@ -14,7 +14,7 @@
 }
 
 #button-verif{
-    background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
+    background: linear-gradient(to left, #707bff, #8224fe);
     background-color: #707cff;
     border-radius: 16px;
     cursor: pointer;
@@ -30,7 +30,7 @@
 }
 
 #button-verif:hover{
-    background: linear-gradient(to right, #f952ff 5%, #707cff 100%);
+    background: linear-gradient(to left, #707bff, #8224fe);
     background-color: #f952ff;
     transition-duration: 0.5s;
     transform: scale(1.1);

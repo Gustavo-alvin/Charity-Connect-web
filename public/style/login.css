@@ -42,7 +42,7 @@
 }
 
 #botao-form {
-    background-color: #707cff;
+    background:linear-gradient(to left, #707bff, #8224fe);
     border-radius: 16px;
     cursor: pointer;
     color: #ffffff;
@@ -57,15 +57,15 @@
 }
 
 #botao-form:hover {
-    background: #707cfb;
-    background-color: #707cfb;
+    background: linear-gradient(to left, #707bff, #8224fe);
+    background-color:linear-gradient(to left, #707bff, #8224fe);
     transition-duration: 0.5s;
     transform: scale(1.1);
 
 }
 
 #redirecionar {
-    background-color: #707cff;
+    background: linear-gradient(to left, #707bff, #8224fe);
     border-radius: 16px;
     cursor: pointer;
     color: #ffffff;
@@ -79,6 +79,7 @@
 }
 
 #redirecionar:hover {
+    background: linear-gradient(to left, #707bff, #8224fe);
     transition-duration: 0.5s;
     transform: scale(1.1);
 }

@@ -12,7 +12,7 @@
 }
 
 .principal {
-    background-color: black;
+    background-color: #161b22;
     
 }
 
@@ -50,7 +50,8 @@ body {
 
 
 .container__secundario {
-    background-color: #181818;
+    background-color: rgba(0,0,0,0.3
+    );
     color: var(--branco);
     padding: 5% 5%;
     text-align: center;

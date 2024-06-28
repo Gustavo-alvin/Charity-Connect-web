@@ -126,7 +126,7 @@ input {
 }
 
 #botao-form {
-    background: #707cfb;
+    background: linear-gradient(to left, #707bff, #8224fe);
     background-color: #707cff;
     border-radius: 16px;
     cursor: pointer;
@@ -141,7 +141,7 @@ input {
 }
 
 #botao-form:hover {
-    background: #707cfb;
+    background: linear-gradient(to left, #707bff, #8224fe);
     background-color: #707cfb;
     transition-duration: 0.5s;
     transform: scale(1.1);
