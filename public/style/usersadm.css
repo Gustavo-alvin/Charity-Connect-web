@@ -22,8 +22,12 @@
 
 .container {
     display: grid;
-    grid-template-columns: 5% 90%;
+    grid-template-columns: 20% 80%;
     
+}
+
+.container-fale-conosco{
+    grid-template-columns: 0% 100%;
 }
 
 .controller-user {
@@ -37,13 +41,13 @@
     text-align: center;
 }
 
-.btn-user-ong    {
+.btn-user-escolha   {
     border: transparent;
     background-color: transparent; 
     border-radius: 100% ;
 }
 
-.btn-user    {
+.btn-user-escolha    {
     border: transparent;
     background-color: transparent; 
     border-radius: 100% ;
@@ -64,7 +68,7 @@ span{
 }
 
 .Gerenciamento{
-    display: none;
+    display: flex;
     width: 80%;
     justify-content: center;
     background-color: #fff;
@@ -113,17 +117,12 @@ select{
 
 .fale-conosco{
     display: none;
-    width: 30%;
+    align-items: center;
     justify-content: center;
-    background-color: #fff;
-    overflow-x: auto;
-    padding: 2em;
-    border-radius: 10px;
-    margin-bottom: 5%;
 }
 
 #selecao{
-   
+   margin: 0px;
     width: 600px;
 }
 #selecao li{

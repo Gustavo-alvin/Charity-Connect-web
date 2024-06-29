@@ -37,33 +37,32 @@
         </nav>
       </header>
 
-      <main class="main-user">
-        <div>
-            <h1 id="title-main">Gerenciamento de Usuários</h1>
+      <!-- Estrutura atualizada do HTML -->
+
+<main class="main-user">
+    <div>
+        <h1 id="title-main">Gerenciamento de Usuários</h1>
+    </div>
+
+    <div class="container container-fale-conosco">
+        <div class="controller-user">
+            <label class="label-user" for="btn-user-ong">
+                <button type="button" class="btn-user-escolha" id="btn-user-ong" onclick="mostrarGerenciamento()">
+                    <img class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
+                    <p class="category-management">Users</p>
+                </button>
+            </label>
+
+            <label class="label-user" for="btn-user">
+                <button type="button" class="btn-user-escolha" id="btn-user" onclick="mostrarFaleConosco()">
+                    <img class="icon-img-ativo" id="icon-img" src="../assets/phone_icon.png">
+                    <p class="category-management">Fale conosco</p>
+                </button>
+            </label>
         </div>
-        
 
-        <div class="container">
-            
-            <div class="controller-user">
-                <label class="label-user" for="btn-user-ong">
-                    <button type="button" class="btn-user-ong" id="btn-user-ong" onclick="mostrarGerenciamento()">
-                        <img  class="icon-img-ativo" id="icon-img"  src="../assets/usericon.png">
-                        <p class="category-management">Users</p>
-                    </button>
-                    
-                </label>
-
-                <label class="label-user" for="btn-user">
-                    <button type="button" class="btn-user" id="btn-user">
-                        <img  class="icon-img-ativo" id="icon-img" src="../assets/phone_icon.png">
-                        <p class="category-management">Fale conosco</p>
-                    </button>
-                    
-                </label>
-            </div>
-
-            <div class="Gerenciamento" id="Gerenciamento-users" >
+        <div id="gerenciamento" class="Gerenciamento">
+            <table class="demo">
                 <table class="demo">
                     <thead>
                     <tr id="title-categoria">
@@ -155,10 +154,11 @@
                     </tr>
                     <tbody>
                 </table>
-            </div>
+            </table>
+        </div>
 
-            <!--inicio fale conosco-->
-            <div class="fale-conosco" id="fale-conosco-div">
+        <div id="fale-conosco" class="fale-conosco" style="display: none;">
+            <ul id="selecao">
                 <ul id="selecao">
                     <li>
                         <label for="first" id="text-reclame">Gustavo - How do I find Ongs in my region? <span>&#x3e;</span></label>
@@ -193,12 +193,10 @@
                         </div>
                     </li>
                 </ul>
-
-            </div>
-
+            </ul>
         </div>
-
-      </main>
+    </div>
+</main>
 
       <footer class="footergeral">
 
