@@ -47,22 +47,23 @@
             
             <div class="controller-user">
                 <label class="label-user" for="btn-user-ong">
-                    <button type="button" class="btn-user-escolha" id="btn-user-ong" onclick="mudarOngs()">
-                        <img  class="icon-img-ativo" id="icon-img" src="../assets/usericon.png">
-                        <p>Users</p>
+                    <button type="button" class="btn-user-ong" id="btn-user-ong" onclick="mostrarGerenciamento()">
+                        <img  class="icon-img-ativo" id="icon-img"  src="../assets/usericon.png">
+                        <p class="category-management">Users</p>
                     </button>
                     
                 </label>
 
                 <label class="label-user" for="btn-user">
-                    <button type="button" class="btn-user-escolha" id="btn-user" onclick="mudarUser()">
+                    <button type="button" class="btn-user" id="btn-user">
                         <img  class="icon-img-ativo" id="icon-img" src="../assets/phone_icon.png">
+                        <p class="category-management">Fale conosco</p>
                     </button>
                     
                 </label>
             </div>
 
-            <div class="Gerenciamento">
+            <div class="Gerenciamento" id="Gerenciamento-users" >
                 <table class="demo">
                     <thead>
                     <tr id="title-categoria">
@@ -154,6 +155,45 @@
                     </tr>
                     <tbody>
                 </table>
+            </div>
+
+            <!--inicio fale conosco-->
+            <div class="fale-conosco" id="fale-conosco-div">
+                <ul id="selecao">
+                    <li>
+                        <label for="first" id="text-reclame">Gustavo - How do I find Ongs in my region? <span>&#x3e;</span></label>
+                        <input type="radio" name="selecao" id="first" checked>
+                        <div class="content">
+                            <p id="text-reclame">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero recusandae vitae ullam ex nesciunt tempore. 
+                                Voluptas, excepturi qui doloremque ad quam dolores aliquam et deleniti quis esse mollitia similique harum.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="second" id="text-reclame"> Gomes - How do I make a donation? <span>&#x3e;</span></label>
+                        <input type="radio" name="selecao" id="second" >
+                        <div class="content">
+                            <p id="text-reclame">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero recusandae vitae ullam ex nesciunt tempore. 
+                                Voluptas, excepturi qui doloremque ad quam dolores aliquam et deleniti quis esse mollitia similique harum.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="third" id="text-reclame">Cauã - Are registered NGOs safe? <span>&#x3e;</span></label>
+                        <input type="radio" name="selecao" id="third" >
+                        <div class="content">
+                            <p id="text-reclame">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero recusandae vitae ullam ex nesciunt tempore. 
+                                Voluptas, excepturi qui doloremque ad quam dolores aliquam et deleniti quis esse mollitia similique harum.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
 
         </div>

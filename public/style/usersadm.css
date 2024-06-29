@@ -1,3 +1,7 @@
+#text-reclame{
+    color: #000;
+}
+
 .main-user{
     background-color: #161b22;
     
@@ -10,11 +14,16 @@
     font-size: 2.5em;
 }
 
+.category-management{
+    color: aliceblue;
+}
+
 
 
 .container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 5% 90%;
+    
 }
 
 .controller-user {
@@ -28,7 +37,13 @@
     text-align: center;
 }
 
-.btn-user-escolha {
+.btn-user-ong    {
+    border: transparent;
+    background-color: transparent; 
+    border-radius: 100% ;
+}
+
+.btn-user    {
     border: transparent;
     background-color: transparent; 
     border-radius: 100% ;
@@ -49,7 +64,7 @@ span{
 }
 
 .Gerenciamento{
-    display: flex;
+    display: none;
     width: 80%;
     justify-content: center;
     background-color: #fff;
@@ -94,6 +109,64 @@ select{
 
 .btn-user-escolha:active {
     transform: scale(0.95);
+}
+
+.fale-conosco{
+    display: none;
+    width: 30%;
+    justify-content: center;
+    background-color: #fff;
+    overflow-x: auto;
+    padding: 2em;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+#selecao{
+   
+    width: 600px;
+}
+#selecao li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#selecao li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #707bff;
+}
+
+#selecao li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+
+#selecao label + input[type="radio"]{
+    display: none;
+}
+
+#selecao .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#selecao label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+
 }
 
 @media (max-width:800px) {
