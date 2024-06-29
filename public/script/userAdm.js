@@ -1,6 +1,5 @@
-// userAdm.js
 
-// Função para mostrar a seção de Gerenciamento de Usuários e esconder Fale Conosco
+
 function mostrarGerenciamento() {
     var gerenciamentoDiv = document.getElementById('gerenciamento');
     var faleConoscoDiv = document.getElementById('fale-conosco');
@@ -13,7 +12,6 @@ function mostrarGerenciamento() {
     container.classList.remove('container-fale-conosco');
 }
 
-// Função para mostrar a seção de Fale Conosco e esconder Gerenciamento de Usuários
 function mostrarFaleConosco() {
     var gerenciamentoDiv = document.getElementById('gerenciamento');
     var faleConoscoDiv = document.getElementById('fale-conosco');
@@ -27,7 +25,6 @@ function mostrarFaleConosco() {
     
 }
 
-// Configura os eventos de clique nos botões ao carregar a página
 document.addEventListener('DOMContentLoaded', function() {
     var btnGerenciamento = document.getElementById('btn-user-ong');
     var btnFaleConosco = document.getElementById('btn-user');
