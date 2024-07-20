@@ -1,5 +1,13 @@
+:root {
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --link-footer: #b1b1b1;
+    --link-footer2: #5e5e5e;
+}
+
 .footergeral{
-    background-color: #000;
+    background-color: var(--black);
     text-align: center;
     padding-bottom: 20px;
 
@@ -16,7 +24,7 @@
 }
 
 #text-logo-footer{
-    color:#fff;
+    color: var(--white);
     margin-top: -20px;
 }
 
@@ -30,7 +38,7 @@
 
 #link-footer-pt2{
     text-decoration: none;
-    color:#b1b1b1;
+    color: var(--link-footer);
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -38,7 +46,7 @@
 
 #link-footer-pt3{
     text-decoration: none;
-    color:#5e5e5e;
+    color: var(--link-footer2);
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -57,13 +65,13 @@
 }
 
 #nomealuno{
-    color: #fff;
+    color: var(--white);
     list-style: none;
     text-align: left;
 }
 
 #text-info-footer{
-    color: #b1b1b1;
+    color: var(--link-footer);
     font-size: 30px;
 }
 
@@ -74,7 +82,7 @@
 }
 
 #linkcontatofooter{
-    color:#c0c0c0;
+    color: var(--link-footer);
     font-family: monospace;
     text-decoration: none;
     font-size:70%;
@@ -87,11 +95,11 @@
 
 #linkcontatofooter:hover{
     text-decoration:underline;
-    text-decoration-color: #ffffff;
+    text-decoration-color: var(--white);
 }
 
 #itensfooter{
-    color:#ffffff;
+    color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
 }
@@ -108,7 +116,7 @@
 
 #itensfooter2{
     font-family:helvetica;
-    color:#ffffff;
+    color: var(--white);
     font-size: 20px;
 }
 
@@ -127,7 +135,7 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    background-color: #090909;
+    background-color: var(--black);
     padding-left:20px ;
     padding-right:20px;
     border-radius: 20px;
@@ -139,7 +147,7 @@
 
 #itemfooter{
     list-style: none;
-    color: #b1b1b1;
+    color: var(--link-footer);
     margin-top: 5px;
 }
 
@@ -148,14 +156,14 @@
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
-    color: black;
+    color: var(--black);
 }
 
 #intranet:hover{
     background-image: linear-gradient(to right, #707bff, #fa52ff);
     transform: scale(1.1);
     text-decoration: underline;
-    text-decoration-color:#b1b1b1;
+    text-decoration-color: var(--link-footer);
 }
 
 @media screen and (max-width: 934px){
@@ -176,6 +184,6 @@
     }
 
     #itemfooter {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid var(--white);
     }
 }

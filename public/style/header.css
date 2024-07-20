@@ -8,6 +8,13 @@
     url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")format("svg");
 }
 
+:root {
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --roxo: #8224fe;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -19,14 +26,14 @@ ul {
 
 #itens{
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: var(--white);
     text-decoration:none ;
     font-family: "SoDo Sans SemiBold";
     margin-top: 1em;
 }
 
 #itens:hover{
-    border-bottom: 1px solid #8224fe;
+    border-bottom: 1px solid var(--roxo);
     padding-bottom: 1px;
     transition: 0.5s;
 }
@@ -41,7 +48,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #000000;
+    background: var(--black);
     position: fixed;
 }
 
@@ -84,7 +91,7 @@ ul {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: #181818;
+        background: var(--black);
        height: 0px;
        transition: .6s;
         z-index: 1000;
@@ -111,13 +118,13 @@ ul {
         border: none;
         background: none;
         cursor: pointer;
-        color: white;
+        color: var(--white);
         gap: .5rem;
     }
 
     #hambuguer {
         display: block;
-        border-top: 2px solid #ffffff;
+        border-top: 2px solid var(--white);
         width: 20px;
     }
 
@@ -126,7 +133,7 @@ ul {
         content: '';
         display: block;
         height: 2px;
-        background: white;
+        background: var(--white);
         margin-top: 5px;
         transition: .3s;
         position: relative;
