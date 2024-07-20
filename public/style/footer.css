@@ -6,11 +6,13 @@
 }
 
 .logofooter{
-    text-align: center;
+    
 }
 
 #logofooter{
     width: 100px;
+    display: block;
+    margin: auto;
 }
 
 #text-logo-footer{
