@@ -1,5 +1,14 @@
+:root {
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --roxo: #8224fe;
+    --azul: #707cfb;
+    --rosa: #f952ff;
+}
+
 .cadastroong {
-    background-color: #161b22;
+    background-color: var(--background);
     margin: 0;
     text-align: center;
     padding-top: 50px;
@@ -10,11 +19,13 @@
 }
 
 #coracao {
+    display: block;
+    margin: auto;
     width: 150px;
 }
 
 .formulario-section {
-    background-color: #fff;
+    background-color: var(--white);
     padding: 50px;
     width: 60%;
     margin-left: 20%;
@@ -22,7 +33,7 @@
 }
 
 #desc-h1 {
-    color: #000;
+    color: var(--black);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -50,9 +61,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 }
 
@@ -64,10 +75,10 @@ input {
 
 .form-1 {
     display: grid;
-    border-right: #707cfb;
-    border-left: #fff;
-    border-top: #fff;
-    border-bottom: #fff;
+    border-right: var(--azul);
+    border-left: var(--white);
+    border-top: var(--white);
+    border-bottom: var(--white);
     border-style: solid;
     width: 100%;
     padding-right: 30px;
@@ -81,9 +92,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 
 }
@@ -99,7 +110,7 @@ input {
 #textarea-form {
     resize: none;
     padding: 5px;
-    border: #707cfb;
+    border: var(--azul);
     border-style: solid;
     border-radius: 10px;
 
@@ -114,9 +125,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 }
 
@@ -127,10 +138,10 @@ input {
 
 #botao-form {
     background: linear-gradient(to left, #707bff, #8224fe);
-    background-color: #707cff;
+    background-color: var(--azul);
     border-radius: 16px;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--white);
     font-family: Arial;
     font-size: 18px;
     padding: 5px 3em;
@@ -142,7 +153,7 @@ input {
 
 #botao-form:hover {
     background: linear-gradient(to left, #707bff, #8224fe);
-    background-color: #707cfb;
+    background-color: var(--azul);
     transition-duration: 0.5s;
     transform: scale(1.1);
 
@@ -150,10 +161,10 @@ input {
 
 #link-form {
     background: linear-gradient(to right, #707cff 5%, #f952ff 100%);
-    background-color: #707cff;
+    background-color: var(--azul);
     border-radius: 16px;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--white);
     font-family: Arial;
     font-size: 18px;
     padding: 8px 38px;
@@ -165,7 +176,7 @@ input {
 
 #link-form:hover {
     background: linear-gradient(to right, #f952ff 5%, #707cff 100%);
-    background-color: #f952ff;
+    background-color: var(--rosa);
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
@@ -175,16 +186,20 @@ input {
     padding-right: 10px;
     border-width: 2px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 }
 
 .btns {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "botao-form-reset" "botao-form-cadastro";
+    justify-items: center;
 }
+
+
 
 @media screen and (max-width: 934px) {
     .coracaofigure {
@@ -205,10 +220,10 @@ input {
     }
 
     .form-2 {
-        border-right: #707cfb;
-        border-left: #fff;
-        border-top: #fff;
-        border-bottom: #fff;
+        border-right: var(--azul);
+        border-left: var(--white);
+        border-top: var(--white);
+        border-bottom: var(--white);
         border-style: solid;
         margin: 0;
         padding-right: 30px;
