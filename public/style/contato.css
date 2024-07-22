@@ -1,5 +1,14 @@
+:root {
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --roxo: #8224fe;
+    --azul: #707cfb;
+    --rosa: #f952ff;
+}
+
 .contato {
-    background-color: #181818;
+    background-color: #161b22;
     margin: 0;
     text-align: center;
     padding-top: 50px;
@@ -10,19 +19,22 @@
 }
 
 #coracao {
+    display: block;
+    margin: auto;
     width: 150px;
 }
 
 .formulario-section {
-    background-color: #fff;
+    background-color: var(--white);
     padding: 50px;
     width: 60%;
     margin-left: 20%;
     border-radius: 25px;
+    
 }
 
 #desc-h1 {
-    color: #000;
+    color: var(--black);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -51,9 +63,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
     border-top: transparent;
     border-left: transparent;
@@ -68,9 +80,9 @@ input:focus {
     padding-left: 10px;
     padding-right: 10px;
     width: 96%;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
     border-top: transparent;
     border-left: transparent;
@@ -81,10 +93,10 @@ input:focus {
 .form-3__inputs {
     padding-left: 10px;
     padding-right: 10px;
-    width: 96%;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    width: 100%;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
     border-top: transparent;
     border-left: transparent;
@@ -100,9 +112,10 @@ label {
 
 .form-1 {
     display: grid;
-    border-left: #fff;
-    border-top: #fff;
-    border-bottom: #fff;
+    border-left: var(--white);
+    border-right: var(--white);
+    border-top: var(--white);
+    border-bottom: var(--white);
     border-style: solid;
     width: 100%;
     padding-right: 30px;
@@ -118,17 +131,17 @@ label {
 
 .form-3 {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 2%;
+    width: 100%;
+    
 }
 
 #cnpj {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 
 }
@@ -144,7 +157,7 @@ label {
 #textarea-form {
     resize: none;
     padding: 5px;
-    border: #707cfb;
+    border: var(--azul);
     border-style: solid;
     border-radius: 10px;
 
@@ -159,9 +172,9 @@ label {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    border-color: #707cfb;
-    background-color: #fff;
-    color: #707cfb;
+    border-color: var(--azul);
+    background-color: var(--white);
+    color: var(--azul);
     font-weight: 600;
 }
 
@@ -178,10 +191,10 @@ label {
 
 .botao-form {
     background:linear-gradient(to left, #707bff, #8224fe);
-    background-color: #707cff;
+    background-color: var(--azul);
     border-radius: 16px;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--white);
     font-family: Arial;
     font-size: 18px;
     padding: 5px 38px;
@@ -192,7 +205,7 @@ label {
 
 .botao-form:hover {
     background: linear-gradient(to left, #707bff, #8224fe);
-    background-color: #f952ff;
+    background-color: var(--rosa);
     transition-duration: 0.5s;
     transform: scale(1.1);
 
@@ -200,10 +213,10 @@ label {
 
 #link-form {
     background: linear-gradient(to left, #707bff, #8224fe);
-    background-color: #707cff;
+    background-color: var(--azul);
     border-radius: 16px;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--white);
     font-family: Arial;
     font-size: 18px;
     padding: 8px 38px;
@@ -215,7 +228,7 @@ label {
 
 #link-form:hover {
     background: linear-gradient(to left, #707bff, #8224fe);
-    background-color: #f952ff;
+    background-color: var(--rosa);
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
@@ -237,6 +250,9 @@ label {
             width: 100%;
             margin: 0;
             padding: 10% 0%;
+        }
+        #coracao {
+            margin-top: 2rem;
         }
 
         
