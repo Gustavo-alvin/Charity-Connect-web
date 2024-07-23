@@ -274,23 +274,19 @@ label {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 934px) {
-   
-    .form-1{
-        width: 100%;
-        padding: 0;
-    }
-    
-        .formulario-section{
-            display: grid;
-            justify-items: center;
-            width: 100%;
-            margin: 0;
-            padding: 10% 0%;
-        }
-        #coracao {
-            margin-top: 2rem;
-        }
+@media screen and (max-width: 1000px) {
+   .editar{
+    width: 100%;
+   }
 
+   #coracao{
+    padding-top: 4rem;
+   }
+
+   .formulario-section{
+    display: block;
+    margin: auto;
+    width: 100%;
+   }
         
 }

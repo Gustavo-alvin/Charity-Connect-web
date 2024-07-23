@@ -1,71 +1,76 @@
-@import url(header.css);
-@import url(footer.css);
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
 
 :root {
-    --cor-de-fundo: #181818;
-    --cor-de-fundo-secundario: #E8E3E3;
-    --branco: #fff;
-    --preto: #000000;
-    --titulo-homepage:#fff;
-    --roxo-destaque:#8224fe;
-
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --roxo: #8224fe;
+    --azul: #707cfb;
+    --rosa: #f952ff;
+}
+body{
+    background: var(--background);
 }
 
-.img{
-    background-image: url(../assets/background1homepage.png);
-    background-size: cover;
-    background-position: fixed;
-    padding-top: 22%;
-    padding-bottom: 10%;
-}
-
-.inicio {
-    text-align: center;
-    margin-bottom: 1%;
-    color: #fff;
-}
-
-.div-gradiente-home{
-    background: linear-gradient(to right, #707bff, #fa52ff);
-    width: 100%;
-    height: 0.5rem;
-    margin-top: -10px;
-    margin-left: 0;
-    box-shadow: 10px 10px 61px 10px #8224fe;
-}
-
-.principal {
+.principal{
     padding: 5%;
-    background-color: black;
+    background: var(--background);
+    color: var(--white);
+}
+.container__principal {
+    background: linear-gradient(to right, #707bff, #fa52ff);
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 25px 25px 0px 0px;
 }
 
-.termos {
-    padding: 3%;
+#texto__sobrenos {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--branco);
+    transition: 0.3s;
 }
 
-.termo__geral {
-    background-color: #fff;
-    color: black;
-    padding: 3%;
-    border-radius: 3%;
+.container__secundario {
+    background: var(--black);
+    padding: 5% 5%;
+    text-align: center;
 }
 
-ul {
-    list-style: decimal;
-}
-h3{
-    transition: 1s;
-}
-
-h3:hover {
-    transform: translateY(-15px);
+#cahrity_closet {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--branco);
+    text-align: left;
 }
 
-.container_secundario{
-    background-color: rgba(0,0,0);
+#texto {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: left;
 }
 
 .container__terceario{
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 0px 0px 25px 25px ;
+    background: var(--black);
+    padding: 5% 5%;
+
+}
+
+.textos4 {
+    padding: 1% 1%;
+}
+
+@media screen and (max-width: 934px) {
+    .principal {
+        padding: 0;
+        padding-top: 4rem;
+    }
+    
+    .container__principal {
+        width: 100%;
+    }
 }

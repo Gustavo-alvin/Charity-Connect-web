@@ -11,6 +11,7 @@
     color: white;
     text-align: center;
     padding: 3.5%;
+    padding-top: 8rem;
     font-size: 2.5em;
 }
 
@@ -22,7 +23,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10rem 50rem;
     
 }
 
@@ -42,12 +43,9 @@
 }
 
 .btn-user-escolha   {
-    border: transparent;
-    background-color: transparent; 
-    border-radius: 100% ;
-}
-
-.btn-user-escolha    {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     border: transparent;
     background-color: transparent; 
     border-radius: 100% ;
@@ -69,7 +67,7 @@ span{
 
 .Gerenciamento{
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     background-color: #fff;
     overflow-x: auto;
@@ -168,7 +166,7 @@ select{
 
 }
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
     
 
     .container{
@@ -182,5 +180,16 @@ select{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 8rem;
+    }
+
+    #selecao{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #selecao li{
+        width: 60%;
     }
 }

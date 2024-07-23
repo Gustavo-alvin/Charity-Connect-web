@@ -1,0 +1,258 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+
+
+:root {
+    --black: #000000;
+    --background:#161b22;
+    --white: #ffffff;
+    --roxo: #8224fe;
+    --azul: #707cfb;
+    --rosa: #f952ff;
+}
+
+
+.principal {
+    background-color: #161b22;
+    padding-top: 5%;
+}
+
+body {
+    background: var(--background);
+    color: var(--white);
+    
+}
+
+.container__principal {
+    background: linear-gradient(to right, #707bff, #fa52ff);
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#texto__sobre {
+    color: var(--white);
+    font-weight: 100;
+    font-size: 1rem;
+   
+    
+}
+
+#texto__sobrenos {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+
+.container__secundario {
+    background-color: rgba(0,0,0,0.3
+    );
+    color: var(--white);
+    padding: 5% 5%;
+    text-align: center;
+}
+
+#cahrity_closet {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--white);
+    text-align: left;
+
+}
+
+
+#texto__charity {
+    color: var(--white);
+    font-size: rem;
+    padding: 1%;
+}
+
+.container__terceario {
+    background-color:var(--black) ;
+    color: var(--white);
+    padding-left: 3em;
+}
+
+#texto__3 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#texto__topico__3 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    padding:0;
+}
+
+#teste {
+    font-size: 1.5rem;
+    color: var(--white);
+    width: 75%;
+    padding: 0.5% 2%;
+}
+
+#texto__topico__4 {
+    color: var(--white);
+   font-weight: 600;
+    font-size: 2rem;
+
+}
+
+#texto__4 {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0% 2%;
+}
+
+.textos3 {
+    padding: 2%;
+    color: var(--white);
+}
+
+.textos4 {
+    padding: 2%;
+    color: var(--white);
+}
+
+.container__quarteario {
+    background: var(--background);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5%;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
+    -moz-box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
+    box-shadow: 0px 68px 221px -43px rgba(130, 36, 254, 1);
+
+}
+
+.textos5 {
+    color: var(--white);
+    width: 100%;
+    padding: 2%
+}
+
+strong {
+    font-weight: 600;
+    color: var(--white);
+}
+
+.efeito__texto {
+    transition: 0.3s;
+}
+
+
+
+#logoods {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.img__ods {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+
+.div-gradiente-home{
+    background: linear-gradient(to right, #707bff, #fa52ff);
+    width: 100%;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 0;
+    box-shadow: 10px 10px 61px 10px var(--roxo);
+}
+
+#logoods{
+    width: 15rem;
+}
+
+#texto{
+    color: var(--white);
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+.ods_img_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 934px) {
+    .container__quarteario {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .container__terceario{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .container__principal{
+        margin-top: 2em;
+        width: 100%;
+        padding-top: 4rem;
+       
+    }
+
+    .container__secundario {
+        padding: 0;
+    }
+
+    #texto {
+        text-align: center;
+    }
+
+    .textos3 {
+        padding: 0;
+    }
+
+    .textos5{
+        text-align: center;
+    }
+
+    #texto__topico__3 {
+        margin-bottom: 1em;
+    }
+
+    #teste {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .img__ods {
+        display: none;
+    }
+
+    .container__quarteario {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    #logoods {
+       margin-left: 5em;
+    }
+
+    .ods_img_mobile {
+        display: block;
+    }
+    #cahrity_closet{
+        text-align: center;
+    }
+
+  
+}

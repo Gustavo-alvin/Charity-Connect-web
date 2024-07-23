@@ -33,12 +33,10 @@ body {
     margin:  0 auto;
 }
 
-#texto__sobre {
+#political-text {
     color: var(--branco);
-    font-weight: 100;
-    font-size: 1rem;
+    font-weight: 600;
    
-    
 }
 
 #texto__sobrenos {
@@ -59,11 +57,12 @@ body {
     margin:  0 auto;
 }
 
-#cahrity_closet {
+#privacy-policy {
     font-weight: 600;
     font-size: 2rem;
     color: var(--branco);
     text-align: left;
+    border-bottom: solid 5px var(--branco);
 
 }
 
@@ -90,8 +89,10 @@ body {
 #texto__topico__3 {
     color: var(--branco);
     font-weight: 600;
+    border-bottom: solid 5px var(--branco);
     font-size: 2rem;
-    margin: 0;
+
+    margin-bottom: 1rem;
     padding:0;
 }
 
@@ -106,6 +107,7 @@ body {
     color: var(--branco);
    font-weight: 600;
     font-size: 2rem;
+    border-bottom: solid 5px var(--branco);
 
 }
 
@@ -154,7 +156,7 @@ strong {
 }
 
 .efeito__texto {
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 
@@ -199,8 +201,37 @@ strong {
 }
 
 @media screen and (max-width: 934px) {
+    .principal{
+        padding-top: 4rem;
+        
+    }
+    #texto{
+        font-size: 16px;
+        text-align: center;
+    }
+    #privacy-policy{
+        text-align: center;
+    }
+
+    #texto__topico__3{
+        text-align: center;
+    }
+    
     .container__principal{
         margin-top: 2em;
+        width: 100%;
+    }
+
+    .div-gradiente-home{
+        width: 100%;
+    }
+
+    .container__secundario{
+        width: 100%;
+    }
+
+    .container__terceario{
+        width: 100%;
     }
     
     .container__quarteario {
