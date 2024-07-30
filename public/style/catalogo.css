@@ -246,6 +246,10 @@ ul{
     color: var(--white);
  }
 
+ ul.catalog-items{
+  padding: 2em;
+ }
+
  @media screen and (max-width: 1000px) {
     .input-wrapper {
       margin: 0 ;
